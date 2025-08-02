@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User can not login without entered credentials</description>
+   <name>TC0007_Navigation_CreateMaterial_Success</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>bee6e6a5-7e8c-46da-86f9-fb3366eecf14</testCaseGuid>
+</TestCaseEntity>
