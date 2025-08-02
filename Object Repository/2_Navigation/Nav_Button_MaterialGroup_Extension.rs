@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Nav_Button_MaterialGroup_Extension</name>
+   <tag></tag>
+   <elementGuidId>cbd05c46-99f3-4f36-bce9-5ace7b867b61</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[(text() = 'Extension' or . = 'Extension')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value></value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>ed9f3593-4cab-483c-9ef1-d3afb2fce024</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>_collapsedSubItemGroup_1mewf_77 m_4081bf90 mantine-Group-root</value>
+      <webElementGuid>a5c42ebc-8b9d-4f99-8539-52abb0e8ea63</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Extension</value>
+      <webElementGuid>e6419af3-7dc0-4c2a-94e1-25a6debff357</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/div[@id=&quot;mantine-vk9j7g7gi-dropdown&quot;]/div[1]/div[3]/div[@class=&quot;_collapsedSubItemGroup_1mewf_77 m_4081bf90 mantine-Group-root&quot;]</value>
+      <webElementGuid>e990fd82-85f9-49e2-9610-3eec70126042</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Extension' or . = 'Extension')]</value>
+      <webElementGuid>f84054d8-6bbe-46ee-807a-10ae01da0f28</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='mantine-u0rrajgxf-dropdown']/div/div[3]/div</value>
+      <webElementGuid>768d0318-d395-4b8e-bc37-a1ceb4a2df1f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Enrichment'])[1]/following::div[2]</value>
+      <webElementGuid>785eb3a0-75f3-4da5-9607-d4312c38a02d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Create'])[2]/following::div[6]</value>
+      <webElementGuid>4d696dd5-0a21-46f5-8ae9-ad663b11b90f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bulk Enrichment'])[1]/preceding::div[4]</value>
+      <webElementGuid>afad51d0-3fc0-4605-88cb-9c49c4fc3a2d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[8]/div/div/div[3]/div</value>
+      <webElementGuid>58cce137-7d13-46b1-b5f3-4c13116bdda8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

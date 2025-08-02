@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Nav_Button_MaterialGroup_Create</name>
+   <tag></tag>
+   <elementGuidId>e4396a6b-cf27-404b-9dc1-59b59afdc8cf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[(text() = 'Create' or . = 'Create')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div._collapsedSubItemGroup_1mewf_77.m_4081bf90.mantine-Group-root</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>div >> internal:has-text=/^Create$/ >> nth=3</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>86c73998-784c-4204-b33a-c82e8f20c5ac</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>_collapsedSubItemGroup_1mewf_77 m_4081bf90 mantine-Group-root</value>
+      <webElementGuid>a1b8c5e9-a549-4390-b620-fea2627da557</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Create</value>
+      <webElementGuid>cc3226c7-b5c6-46d1-b2f3-fb262594172e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mantine-6t52syuwn-dropdown&quot;)/div[1]/div[1]/div[@class=&quot;_collapsedSubItemGroup_1mewf_77 m_4081bf90 mantine-Group-root&quot;]</value>
+      <webElementGuid>c377a604-0ebc-4b33-acbc-fab3a3dea2b5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='mantine-6t52syuwn-dropdown']/div/div/div</value>
+      <webElementGuid>7e4253b3-6635-4a46-a7bf-dcf136775ab8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SOLAR PANEL 240W PART # SW240'])[1]/following::div[56]</value>
+      <webElementGuid>1ad53483-ae0d-4a81-a3d7-6571078d261e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SLOB'])[14]/following::div[58]</value>
+      <webElementGuid>1f1796e9-70ef-4732-b42b-d27d02110aa6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Enrichment'])[1]/preceding::div[4]</value>
+      <webElementGuid>3fa255df-a769-4a37-acf4-8168db477b9c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[8]/div/div/div/div</value>
+      <webElementGuid>78ac1c70-aebc-4b7d-9952-279fe82355a3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Create' or . = 'Create')]</value>
+      <webElementGuid>55e131c2-d64f-4d36-9c9b-2a798b56dc67</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

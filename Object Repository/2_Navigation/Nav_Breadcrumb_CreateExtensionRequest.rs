@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Nav_Breadcrumb_CreateExtensionRequest</name>
+   <tag></tag>
+   <elementGuidId>67ab3f49-8820-4ec1-9e81-0a3220fc6de8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/header/div[2]/div/div[3]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.mantine-focus-auto.m_849cf0da.m_f678d540.mantine-Breadcrumbs-breadcrumb.m_b6d8b162.mantine-Text-root.mantine-Anchor-root</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Create Extension Request&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>60985ed1-e71c-4ca3-be9a-1020d3b446e9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mantine-focus-auto m_849cf0da m_f678d540 mantine-Breadcrumbs-breadcrumb m_b6d8b162 mantine-Text-root mantine-Anchor-root</value>
+      <webElementGuid>6b034f4a-1d73-4446-9b64-fd06ab184230</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-underline</name>
+      <type>Main</type>
+      <value>hover</value>
+      <webElementGuid>8e3cb76e-ace2-4d9f-a0d6-be5633bd0c01</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Create Extension Request</value>
+      <webElementGuid>f14e10c6-8158-4ba4-b1e3-04ec4b21453a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;m_89ab340 mantine-AppShell-root&quot;]/header[@class=&quot;m_3b16f56b mantine-AppShell-header right-scroll-bar-position&quot;]/div[@class=&quot;m_8bffd616 mantine-Flex-root __m__-ri&quot;]/div[@class=&quot;m_8bffd616 mantine-Flex-root __m__-rk&quot;]/div[@class=&quot;m_8b3717df mantine-Breadcrumbs-root&quot;]/a[@class=&quot;mantine-focus-auto m_849cf0da m_f678d540 mantine-Breadcrumbs-breadcrumb m_b6d8b162 mantine-Text-root mantine-Anchor-root&quot;]</value>
+      <webElementGuid>bb3e15eb-0739-4f53-b3bc-b9d3d50a00b9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/header/div[2]/div/div[3]/a</value>
+      <webElementGuid>3a775da2-d3be-4b4c-b022-f1785419d7cb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Create Extension Request')]</value>
+      <webElementGuid>3fbff057-ccc5-444d-8e36-bd599a04e54c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='KS'])[1]/following::a[1]</value>
+      <webElementGuid>38cc9f40-0360-478e-b050-e8058486e2fe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Material Plant Summary'])[2]/preceding::a[1]</value>
+      <webElementGuid>a906c4dc-8334-4b48-87d0-70197747e779</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Material Plant Details'])[1]/preceding::a[1]</value>
+      <webElementGuid>9b3df000-7949-4d24-bb34-1d887f91da43</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Create Extension Request']/parent::*</value>
+      <webElementGuid>793cb71a-e718-4320-a2ce-aa3b998e50ce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a</value>
+      <webElementGuid>c1d4b6d3-2cf5-47f2-b3ef-1aa44c526e59</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[(text() = 'Create Extension Request' or . = 'Create Extension Request')]</value>
+      <webElementGuid>fcfa5a11-7610-4be9-8a53-b85dce41b4f8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Login_Text_WelcomeBack</name>
+   <tag></tag>
+   <elementGuidId>6d8e6f92-32e8-4a21-95de-cd0a796f5b0a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[2]/div/div/h1</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.m_7485cace.mantine-Container-root > h1.m_8a5d1357.mantine-Title-root</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=heading[name=&quot;Welcome back!&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h1</value>
+      <webElementGuid>bf5c488a-5a82-481f-858f-bc5f8bfd909a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>m_8a5d1357 mantine-Title-root</value>
+      <webElementGuid>b826c9b8-8922-4c8c-84ba-d7a0f7cee02e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-order</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>af333107-3ab6-45b0-bf3d-c61f12b7e947</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Welcome back!</value>
+      <webElementGuid>48d0dae4-1c0a-469f-94bc-ed588dce133f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[1]/div[2]/div[@class=&quot;m_7485cace mantine-Container-root&quot;]/div[@class=&quot;m_7485cace mantine-Container-root&quot;]/h1[@class=&quot;m_8a5d1357 mantine-Title-root&quot;]</value>
+      <webElementGuid>f76dfe29-6759-43c5-80c7-10eb2e272f67</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div/div/h1</value>
+      <webElementGuid>14c93a9e-4d30-4204-9df6-f1630be016ce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Welcome to MiLi'])[1]/following::h1[1]</value>
+      <webElementGuid>f10f662c-0502-49fb-8416-922fecf71af1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Welcome back!']/parent::*</value>
+      <webElementGuid>f88e0593-a614-4f14-be68-3bdcbede2eaf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/h1</value>
+      <webElementGuid>738c420a-44bd-48db-bf5a-752ca5e7e8da</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h1[(text() = 'Welcome back!' or . = 'Welcome back!')]</value>
+      <webElementGuid>7b211ce9-019e-47bb-a909-721930cb55cf</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

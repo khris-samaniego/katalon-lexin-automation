@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Nav_Breadcrumb_Enrichment</name>
+   <tag></tag>
+   <elementGuidId>1ebdc37b-ad33-4bdb-b218-f0966660818c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/header/div[2]/div/div[3]/p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p.mantine-focus-auto.m_f678d540.mantine-Breadcrumbs-breadcrumb.m_b6d8b162.mantine-Text-root</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=banner >> internal:text=&quot;Enrichment&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>48f72016-03e0-4e5c-aafa-ef58480830a3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mantine-focus-auto m_f678d540 mantine-Breadcrumbs-breadcrumb m_b6d8b162 mantine-Text-root</value>
+      <webElementGuid>997d282b-e396-464c-8d2c-567a3f728e20</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Enrichment</value>
+      <webElementGuid>299f30f3-8537-4d15-892c-135423fee595</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;m_89ab340 mantine-AppShell-root&quot;]/header[@class=&quot;m_3b16f56b mantine-AppShell-header right-scroll-bar-position&quot;]/div[@class=&quot;m_8bffd616 mantine-Flex-root __m__-r1o&quot;]/div[@class=&quot;m_8bffd616 mantine-Flex-root __m__-r1q&quot;]/div[@class=&quot;m_8b3717df mantine-Breadcrumbs-root&quot;]/p[@class=&quot;mantine-focus-auto m_f678d540 mantine-Breadcrumbs-breadcrumb m_b6d8b162 mantine-Text-root&quot;]</value>
+      <webElementGuid>501ce254-97dc-4140-b78f-46d38bf38ad6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/header/div[2]/div/div[3]/p</value>
+      <webElementGuid>40f397d5-7fcd-4a0b-9666-6bcc06c4c589</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='KS'])[1]/following::p[1]</value>
+      <webElementGuid>e276af7b-1700-45e8-b734-0bdadd376f2c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Columns (8)'])[1]/preceding::p[4]</value>
+      <webElementGuid>5b8a8fec-3a09-4788-9931-b1cb545f8416</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Material Number'])[1]/preceding::p[5]</value>
+      <webElementGuid>2ef47e29-be9e-4aae-b297-abcbac1dacea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Enrichment']/parent::*</value>
+      <webElementGuid>abd8d32d-b55e-4b97-afd9-9c286796b4f8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/p</value>
+      <webElementGuid>f609d1cb-d477-4175-8e77-5ca66d493a7d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Enrichment' or . = 'Enrichment')]</value>
+      <webElementGuid>a71a7063-655d-4044-8de8-86fe050fc6d5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

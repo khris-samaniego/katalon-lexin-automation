@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Nav_Button_Search</name>
+   <tag></tag>
+   <elementGuidId>987eb1de-f0f7-4e0c-881d-a3fc9cc5474a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'button']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/nav/nav/div/div/div/div/button[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>._linksInner_1xjma_14 > button:nth-child(2) >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>f86f5ec6-49e0-4536-92d0-e521b028d81f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mantine-focus-auto _collapsedItemGroup_1mewf_2 m_87cf2631 mantine-UnstyledButton-root</value>
+      <webElementGuid>e301f1a5-a3e5-4e79-822e-6b11fefbd2fa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>50ff5ba6-e52b-4eb6-b87a-099601dce137</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-describedby</name>
+      <type>Main</type>
+      <value>:r2v:</value>
+      <webElementGuid>839855e3-90b8-40c5-b6a3-4c31fda3fb24</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;m_89ab340 mantine-AppShell-root&quot;]/nav[@class=&quot;m_45252eee mantine-AppShell-navbar&quot;]/nav[@class=&quot;_navbar_1xjma_1&quot;]/div[@class=&quot;_links_1xjma_9 m_d57069b5 mantine-ScrollArea-root&quot;]/div[@class=&quot;m_c0783ff9 mantine-ScrollArea-viewport&quot;]/div[1]/div[@class=&quot;_linksInner_1xjma_14&quot;]/button[@class=&quot;mantine-focus-auto _collapsedItemGroup_1mewf_2 m_87cf2631 mantine-UnstyledButton-root&quot;]</value>
+      <webElementGuid>5b135785-2139-4edc-92b0-47d7c6109574</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[9]</value>
+      <webElementGuid>6f0106c6-617a-431a-8e3a-c514cc7d7594</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/nav/nav/div/div/div/div/button[2]</value>
+      <webElementGuid>161ab368-0368-4d0e-824a-768ec1d234cf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Create'])[1]/following::button[4]</value>
+      <webElementGuid>95544654-a2c6-49c4-a11d-cb0ce854ec98</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='KU'])[1]/following::button[7]</value>
+      <webElementGuid>fc6b3601-eb74-4f0e-80c2-d25640cf6b59</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jan'])[1]/preceding::button[12]</value>
+      <webElementGuid>ce40dae9-8b6f-4a77-b63e-a6c320a024cf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Feb'])[1]/preceding::button[12]</value>
+      <webElementGuid>c46f4b0e-f4b7-46f8-ac1a-5233526d713a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div/button[2]</value>
+      <webElementGuid>4534ef6d-8a3e-4998-953d-ca22b82a611c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button']</value>
+      <webElementGuid>5bb8c6d7-83dc-4a1d-9dca-5319b518f0f9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

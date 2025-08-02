@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Login_Text_LoginFailed</name>
+   <tag></tag>
+   <elementGuidId>d2ca8bb6-d0e6-463d-b995-823f9522a45f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[2]/div/div/div/div/form/div/p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.m_6d731127.mantine-Stack-root > p.mantine-focus-auto.m_b6d8b162.mantine-Text-root</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Login failed:&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>b5a821b3-b678-4737-ba3e-e730685f5926</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mantine-focus-auto m_b6d8b162 mantine-Text-root</value>
+      <webElementGuid>8676e535-6f4b-4516-ae4a-52a95958e45e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-size</name>
+      <type>Main</type>
+      <value>sm</value>
+      <webElementGuid>6e5aeaaa-bfa1-42fb-8a2b-f217c8fb6396</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Login failed: </value>
+      <webElementGuid>0c5c5481-1ca8-4083-ba2d-c7f98dec50a4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[1]/div[2]/div[@class=&quot;m_7485cace mantine-Container-root&quot;]/div[@class=&quot;m_7485cace mantine-Container-root&quot;]/div[@class=&quot;m_1b7284a3 mantine-Paper-root&quot;]/div[@class=&quot;m_6d731127 mantine-Stack-root&quot;]/form[1]/div[@class=&quot;m_6d731127 mantine-Stack-root&quot;]/p[@class=&quot;mantine-focus-auto m_b6d8b162 mantine-Text-root&quot;]</value>
+      <webElementGuid>415c1e6c-0a60-4d36-89fb-7cda138cbb21</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div/div/div/div/form/div/p</value>
+      <webElementGuid>46bf57f8-01c6-45fc-9cb2-6ee6ade2ca59</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Forgot password?'])[1]/preceding::p[1]</value>
+      <webElementGuid>573b4069-12df-4a68-a9b5-892f1142d9d8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign in'])[1]/preceding::p[1]</value>
+      <webElementGuid>c2a56d7d-d35a-41e9-bc53-ea9560c5f550</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Login failed:']/parent::*</value>
+      <webElementGuid>6cb5065d-9b7f-4bfa-a57c-fddfea2ffa5a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div/p</value>
+      <webElementGuid>481dc920-fba1-452a-a2d9-eb868e16283e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Login failed: ' or . = 'Login failed: ')]</value>
+      <webElementGuid>8befd0b1-9204-4489-a531-85a34ad69e3a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

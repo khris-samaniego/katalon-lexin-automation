@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Nav_Breadcrumb_CreateMaterial</name>
+   <tag></tag>
+   <elementGuidId>dda662e3-3556-4762-a9ce-4bdd212d5f1c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='Create Material']/parent::*</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.mantine-focus-auto.m_849cf0da.m_f678d540.mantine-Breadcrumbs-breadcrumb.m_b6d8b162.mantine-Text-root.mantine-Anchor-root</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Create Material&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>6484b844-7cf1-4eab-8338-764210a6df93</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mantine-focus-auto m_849cf0da m_f678d540 mantine-Breadcrumbs-breadcrumb m_b6d8b162 mantine-Text-root mantine-Anchor-root</value>
+      <webElementGuid>91c22645-18b7-42ca-8ba3-77c0256bb2f5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-underline</name>
+      <type>Main</type>
+      <value>hover</value>
+      <webElementGuid>e0e36627-f758-4139-b1f1-a8f4b318d9b2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Create Material</value>
+      <webElementGuid>90506cde-1dac-408e-a6af-959e086e6979</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;m_89ab340 mantine-AppShell-root&quot;]/header[@class=&quot;m_3b16f56b mantine-AppShell-header right-scroll-bar-position&quot;]/div[@class=&quot;m_8bffd616 mantine-Flex-root __m__-r1o&quot;]/div[@class=&quot;m_8bffd616 mantine-Flex-root __m__-r1q&quot;]/div[@class=&quot;m_8b3717df mantine-Breadcrumbs-root&quot;]/a[@class=&quot;mantine-focus-auto m_849cf0da m_f678d540 mantine-Breadcrumbs-breadcrumb m_b6d8b162 mantine-Text-root mantine-Anchor-root&quot;]</value>
+      <webElementGuid>3a7777cc-1326-428a-a47a-07ed388d5909</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/header/div[2]/div/div[3]/a</value>
+      <webElementGuid>39e3c186-8216-4817-9ae0-b8826889c4a3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Create Material')]</value>
+      <webElementGuid>8895b2f1-830e-42b6-8677-950b9e5d700e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='KS'])[1]/following::a[1]</value>
+      <webElementGuid>27c5eeb8-6b3b-4952-b89b-0762d0cb1acb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Initial Details'])[2]/preceding::a[1]</value>
+      <webElementGuid>205ef973-6279-4929-b931-4a26829f5d43</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sourcing Information'])[1]/preceding::a[1]</value>
+      <webElementGuid>be24591d-dee3-4e86-a655-30445bc8116d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Create Material']/parent::*</value>
+      <webElementGuid>e8ceef92-c695-49c8-be4b-80721675f28d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a</value>
+      <webElementGuid>008367a8-15d5-4b22-bf37-6a83dd432bd0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[(text() = 'Create Material' or . = 'Create Material')]</value>
+      <webElementGuid>b08e7a71-11d9-4753-90cd-bd94683d7b7a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
