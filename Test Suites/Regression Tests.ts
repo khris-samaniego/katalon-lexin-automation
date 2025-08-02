@@ -15,7 +15,7 @@
       <guid>82076aa6-a8bd-40c0-a35a-754f49ba7e33</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/1_Security and Login/TC0001_SecurityAndLogin_LoginNoCredentials_Failure</testCaseId>
+      <testCaseId>Test Cases/1_Security and Login/TC1001_SecurityAndLogin_LoginNoCredentials_Failure</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -65,6 +65,13 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/2_Navigation/TC0008_Navigation_Enrichment_Success</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9957d25d-b36f-439e-8bc3-f204fef738dc</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/3_Search/TC3001_Search_ValidMaterialNumber_Success</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

@@ -11,7 +11,7 @@
    <modifiedEdition>ENTERPRISE</modifiedEdition>
    <modifiedVersion>10.2.0</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>/Users/khrissamaniego/Katalon Studio/Lexin_SupplyChain_QA/Lexin_SupplyChain_QA.prj</projectFileLocation>
+   <projectFileLocation>/Users/khrissamaniego/git/katalon-lexin-automation/Lexin_SupplyChain_QA.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

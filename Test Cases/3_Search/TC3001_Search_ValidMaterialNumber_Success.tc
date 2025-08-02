@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC3001_Search_ValidMaterialNumber_Success</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1766b634-ee74-48dc-9395-fb4e43e2e000</testCaseGuid>
+</TestCaseEntity>
