@@ -1,0 +1,207 @@
+2025-08-02 21:08:17.776 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Regression Tests
+2025-08-02 21:08:17.818 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Khris Samaniego
+2025-08-02 21:08:17.818 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = Lexin_SupplyChain_QA
+2025-08-02 21:08:17.819 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = khrissamaniego - localhost
+2025-08-02 21:08:17.819 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Mac OS X 64bit
+2025-08-02 21:08:17.819 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 127.0.0.1
+2025-08-02 21:08:17.819 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.2.0.0
+2025-08-02 21:08:17.987 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-02 21:08:17.987 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/1_Security and Login/TC0001_SecurityAndLogin_LoginNoCredentials_Failure
+2025-08-02 21:08:18.141 DEBUG urityAndLogin_LoginNoCredentials_Failure - 1: openBrowser("")
+2025-08-02 21:08:18.211 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-08-02 21:08:18.233 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Aug 02, 2025 9:08:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 138
+Aug 02, 2025 9:08:20 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 138.0.7204.184. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-08-02 21:08:20.657 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 0551d5584896579c500714abb102a4c8
+2025-08-02 21:08:20.657 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 138.0.7204.184
+2025-08-02 21:08:20.658 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-08-02 21:08:20.658 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-08-02 21:08:20.662 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-08-02 21:08:20.678 DEBUG urityAndLogin_LoginNoCredentials_Failure - 2: maximizeWindow()
+2025-08-02 21:08:21.056 DEBUG urityAndLogin_LoginNoCredentials_Failure - 3: navigateToUrl("https://lexinqa.lexinsolutions.com/")
+2025-08-02 21:08:23.120 DEBUG urityAndLogin_LoginNoCredentials_Failure - 4: click(findTestObject("Object Repository/1_Security and Login/Login_Button_Sign in"))
+2025-08-02 21:08:28.858 DEBUG urityAndLogin_LoginNoCredentials_Failure - 5: waitForElementVisible(findTestObject("1_Security and Login/Login_Button_Sign in"), 10)
+2025-08-02 21:08:29.151 DEBUG urityAndLogin_LoginNoCredentials_Failure - 6: verifyElementVisible(findTestObject("1_Security and Login/Login_Button_Sign in"))
+2025-08-02 21:08:29.383 DEBUG urityAndLogin_LoginNoCredentials_Failure - 7: closeBrowser()
+2025-08-02 21:08:29.485 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/1_Security and Login/TC0001_SecurityAndLogin_LoginNoCredentials_Failure
+2025-08-02 21:08:29.488 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-02 21:08:29.488 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/1_Security and Login/TC0002_SecurityAndLogin_LoginInvalidCredentials_Failure
+2025-08-02 21:08:29.521 DEBUG urityAndLogin_LoginNoCredentials_Failure - 1: openBrowser("")
+2025-08-02 21:08:29.523 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-08-02 21:08:29.524 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Aug 02, 2025 9:08:30 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 138
+Aug 02, 2025 9:08:30 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 138.0.7204.184. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-08-02 21:08:30.627 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = ff07ebab1ae5a7a009093394ab7b3a07
+2025-08-02 21:08:30.628 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 138.0.7204.184
+2025-08-02 21:08:30.628 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-08-02 21:08:30.628 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-08-02 21:08:30.628 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-08-02 21:08:30.637 DEBUG urityAndLogin_LoginNoCredentials_Failure - 2: maximizeWindow()
+2025-08-02 21:08:31.013 DEBUG urityAndLogin_LoginNoCredentials_Failure - 3: navigateToUrl("https://lexinqa.lexinsolutions.com/")
+2025-08-02 21:08:33.371 DEBUG urityAndLogin_LoginNoCredentials_Failure - 4: setText(findTestObject("Object Repository/1_Security and Login/Login_Input_Email"), "incorrectuser@mail.com")
+2025-08-02 21:08:34.631 DEBUG urityAndLogin_LoginNoCredentials_Failure - 5: setEncryptedText(findTestObject("Object Repository/1_Security and Login/Login_Input_Password"), "NaRTu7UBtmpS8FmW0qSAHjP7ggMaif6d")
+2025-08-02 21:08:34.900 DEBUG urityAndLogin_LoginNoCredentials_Failure - 6: sendKeys(findTestObject("Object Repository/1_Security and Login/Login_Input_Password"), Keys.chord(ENTER))
+2025-08-02 21:08:35.152 DEBUG urityAndLogin_LoginNoCredentials_Failure - 7: click(findTestObject("Object Repository/1_Security and Login/Login_Button_Sign in"))
+2025-08-02 21:08:37.252 DEBUG urityAndLogin_LoginNoCredentials_Failure - 8: waitForElementVisible(findTestObject("Object Repository/1_Security and Login/Login_Text_LoginFailed"), 10)
+2025-08-02 21:08:38.056 DEBUG urityAndLogin_LoginNoCredentials_Failure - 9: verifyElementVisible(findTestObject("Object Repository/1_Security and Login/Login_Text_LoginFailed"))
+2025-08-02 21:08:38.293 DEBUG urityAndLogin_LoginNoCredentials_Failure - 10: closeBrowser()
+2025-08-02 21:08:38.389 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/1_Security and Login/TC0002_SecurityAndLogin_LoginInvalidCredentials_Failure
+2025-08-02 21:08:38.390 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-02 21:08:38.391 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/1_Security and Login/TC0003_SecurityAndLogin_Login_Success
+2025-08-02 21:08:38.421 DEBUG urityAndLogin_LoginNoCredentials_Failure - 1: openBrowser("")
+2025-08-02 21:08:38.423 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-08-02 21:08:38.424 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Aug 02, 2025 9:08:39 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 138
+Aug 02, 2025 9:08:39 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 138.0.7204.184. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-08-02 21:08:39.521 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 3b53dd021230669abd2d77ad5a8a9aae
+2025-08-02 21:08:39.522 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 138.0.7204.184
+2025-08-02 21:08:39.522 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-08-02 21:08:39.522 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-08-02 21:08:39.522 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-08-02 21:08:39.529 DEBUG urityAndLogin_LoginNoCredentials_Failure - 2: maximizeWindow()
+2025-08-02 21:08:39.903 DEBUG urityAndLogin_LoginNoCredentials_Failure - 3: navigateToUrl("https://lexinqa.lexinsolutions.com/")
+2025-08-02 21:08:42.374 DEBUG urityAndLogin_LoginNoCredentials_Failure - 4: setText(findTestObject("Object Repository/1_Security and Login/Login_Input_Email"), "demo+1@nymbl.app")
+2025-08-02 21:08:43.556 DEBUG urityAndLogin_LoginNoCredentials_Failure - 5: setEncryptedText(findTestObject("Object Repository/1_Security and Login/Login_Input_Password"), "JlrLFiaChPTP/Psp+sMNCg==")
+2025-08-02 21:08:43.828 DEBUG urityAndLogin_LoginNoCredentials_Failure - 6: sendKeys(findTestObject("Object Repository/1_Security and Login/Login_Input_Password"), Keys.chord(ENTER))
+2025-08-02 21:08:44.071 DEBUG urityAndLogin_LoginNoCredentials_Failure - 7: waitForPageLoad(10)
+2025-08-02 21:08:44.103 DEBUG urityAndLogin_LoginNoCredentials_Failure - 8: waitForElementVisible(findTestObject("2_Navigation/Nav_Breadcrumb_Dashboard"), 10)
+2025-08-02 21:08:48.662 DEBUG urityAndLogin_LoginNoCredentials_Failure - 9: verifyElementVisible(findTestObject("2_Navigation/Nav_Breadcrumb_Dashboard"))
+2025-08-02 21:08:50.014 DEBUG urityAndLogin_LoginNoCredentials_Failure - 10: closeBrowser()
+2025-08-02 21:08:50.117 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/1_Security and Login/TC0003_SecurityAndLogin_Login_Success
+2025-08-02 21:08:50.118 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-02 21:08:50.118 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/1_Security and Login/TC0004_SecurityAndLogin_Logout_Success
+2025-08-02 21:08:50.146 DEBUG urityAndLogin_LoginNoCredentials_Failure - 1: openBrowser("")
+2025-08-02 21:08:50.148 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-08-02 21:08:50.148 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Aug 02, 2025 9:08:50 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 138
+Aug 02, 2025 9:08:50 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 138.0.7204.184. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-08-02 21:08:51.245 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 217697a97bacb79101a7fbac0c3a928d
+2025-08-02 21:08:51.246 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 138.0.7204.184
+2025-08-02 21:08:51.246 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-08-02 21:08:51.246 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-08-02 21:08:51.246 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-08-02 21:08:51.252 DEBUG urityAndLogin_LoginNoCredentials_Failure - 2: maximizeWindow()
+2025-08-02 21:08:51.629 DEBUG urityAndLogin_LoginNoCredentials_Failure - 3: navigateToUrl("https://lexinqa.lexinsolutions.com/")
+2025-08-02 21:08:53.888 DEBUG urityAndLogin_LoginNoCredentials_Failure - 4: setText(findTestObject("Object Repository/1_Security and Login/Login_Input_Email"), "demo+1@nymbl.app")
+2025-08-02 21:08:55.009 DEBUG urityAndLogin_LoginNoCredentials_Failure - 5: setEncryptedText(findTestObject("Object Repository/1_Security and Login/Login_Input_Password"), "JlrLFiaChPTP/Psp+sMNCg==")
+2025-08-02 21:08:55.282 DEBUG urityAndLogin_LoginNoCredentials_Failure - 6: sendKeys(findTestObject("Object Repository/1_Security and Login/Login_Input_Password"), Keys.chord(ENTER))
+2025-08-02 21:08:55.523 DEBUG urityAndLogin_LoginNoCredentials_Failure - 7: waitForElementVisible(findTestObject("2_Navigation/Nav_Breadcrumb_Dashboard"), 10)
+2025-08-02 21:08:59.265 DEBUG urityAndLogin_LoginNoCredentials_Failure - 8: click(findTestObject("2_Navigation/Nav_Dropdown_Utility"))
+2025-08-02 21:08:59.532 DEBUG urityAndLogin_LoginNoCredentials_Failure - 9: click(findTestObject("2_Navigation/Nav_Utility_button_Logout"))
+2025-08-02 21:09:00.016 DEBUG urityAndLogin_LoginNoCredentials_Failure - 10: waitForPageLoad(10)
+2025-08-02 21:09:00.049 DEBUG urityAndLogin_LoginNoCredentials_Failure - 11: waitForElementVisible(findTestObject("1_Security and Login/Login_Text_WelcomeBack"), 10)
+2025-08-02 21:09:00.492 DEBUG urityAndLogin_LoginNoCredentials_Failure - 12: verifyElementVisible(findTestObject("1_Security and Login/Login_Text_WelcomeBack"))
+2025-08-02 21:09:00.724 DEBUG urityAndLogin_LoginNoCredentials_Failure - 13: waitForPageLoad(10)
+2025-08-02 21:09:00.731 DEBUG urityAndLogin_LoginNoCredentials_Failure - 14: closeBrowser()
+2025-08-02 21:09:00.829 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/1_Security and Login/TC0004_SecurityAndLogin_Logout_Success
+2025-08-02 21:09:00.831 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-02 21:09:00.831 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/2_Navigation/TC0005_Navigation_Search_Success
+2025-08-02 21:09:00.854 DEBUG urityAndLogin_LoginNoCredentials_Failure - 1: openBrowser("")
+2025-08-02 21:09:00.856 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-08-02 21:09:00.857 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Aug 02, 2025 9:09:01 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 138
+Aug 02, 2025 9:09:01 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 138.0.7204.184. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-08-02 21:09:01.896 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = d6848457f2ea56bfdcd1d4b154a6754f
+2025-08-02 21:09:01.897 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 138.0.7204.184
+2025-08-02 21:09:01.897 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-08-02 21:09:01.897 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-08-02 21:09:01.898 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-08-02 21:09:01.904 DEBUG urityAndLogin_LoginNoCredentials_Failure - 2: maximizeWindow()
+2025-08-02 21:09:02.280 DEBUG urityAndLogin_LoginNoCredentials_Failure - 3: navigateToUrl("https://lexinqa.lexinsolutions.com/")
+2025-08-02 21:09:04.527 DEBUG urityAndLogin_LoginNoCredentials_Failure - 4: setText(findTestObject("Object Repository/1_Security and Login/Login_Input_Email"), "demo+1@nymbl.app")
+2025-08-02 21:09:05.740 DEBUG urityAndLogin_LoginNoCredentials_Failure - 5: setEncryptedText(findTestObject("Object Repository/1_Security and Login/Login_Input_Password"), "JlrLFiaChPTP/Psp+sMNCg==")
+2025-08-02 21:09:06.011 DEBUG urityAndLogin_LoginNoCredentials_Failure - 6: sendKeys(findTestObject("Object Repository/1_Security and Login/Login_Input_Password"), Keys.chord(ENTER))
+2025-08-02 21:09:06.253 DEBUG urityAndLogin_LoginNoCredentials_Failure - 7: click(findTestObject("2_Navigation/Nav_Button_Search"))
+2025-08-02 21:09:10.252 DEBUG urityAndLogin_LoginNoCredentials_Failure - 8: waitForElementVisible(findTestObject("Object Repository/3_Search/Search_Breadcrumb_Search"), 10)
+2025-08-02 21:09:11.445 DEBUG urityAndLogin_LoginNoCredentials_Failure - 9: verifyElementPresent(findTestObject("Object Repository/3_Search/Search_Breadcrumb_Search"), 10)
+2025-08-02 21:09:12.377 DEBUG urityAndLogin_LoginNoCredentials_Failure - 10: closeBrowser()
+2025-08-02 21:09:12.477 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/2_Navigation/TC0005_Navigation_Search_Success
+2025-08-02 21:09:12.479 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-02 21:09:12.479 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/2_Navigation/TC0006_Navigation_Dashboard_Success
+2025-08-02 21:09:12.513 DEBUG urityAndLogin_LoginNoCredentials_Failure - 1: openBrowser("")
+2025-08-02 21:09:12.515 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-08-02 21:09:12.516 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Aug 02, 2025 9:09:13 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 138
+Aug 02, 2025 9:09:13 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 138.0.7204.184. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-08-02 21:09:13.618 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 1a43c0d25bc3fc11531988459695b2c0
+2025-08-02 21:09:13.618 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 138.0.7204.184
+2025-08-02 21:09:13.618 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-08-02 21:09:13.618 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-08-02 21:09:13.619 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-08-02 21:09:13.625 DEBUG urityAndLogin_LoginNoCredentials_Failure - 2: maximizeWindow()
+2025-08-02 21:09:14.000 DEBUG urityAndLogin_LoginNoCredentials_Failure - 3: navigateToUrl("https://lexinqa.lexinsolutions.com/")
+2025-08-02 21:09:16.256 DEBUG urityAndLogin_LoginNoCredentials_Failure - 4: setText(findTestObject("Object Repository/1_Security and Login/Login_Input_Email"), "demo+1@nymbl.app")
+2025-08-02 21:09:17.593 DEBUG urityAndLogin_LoginNoCredentials_Failure - 5: setEncryptedText(findTestObject("Object Repository/1_Security and Login/Login_Input_Password"), "JlrLFiaChPTP/Psp+sMNCg==")
+2025-08-02 21:09:17.866 DEBUG urityAndLogin_LoginNoCredentials_Failure - 6: sendKeys(findTestObject("Object Repository/1_Security and Login/Login_Input_Password"), Keys.chord(ENTER))
+2025-08-02 21:09:18.099 DEBUG urityAndLogin_LoginNoCredentials_Failure - 7: click(findTestObject("2_Navigation/Nav_Button_Search"))
+2025-08-02 21:09:22.275 DEBUG urityAndLogin_LoginNoCredentials_Failure - 8: verifyElementPresent(findTestObject("Object Repository/3_Search/Search_Breadcrumb_Search"), 10)
+2025-08-02 21:09:24.039 DEBUG urityAndLogin_LoginNoCredentials_Failure - 9: click(findTestObject("Object Repository/2_Navigation/Nav_Button_Dashboard"))
+2025-08-02 21:09:24.314 DEBUG urityAndLogin_LoginNoCredentials_Failure - 10: waitForElementVisible(findTestObject("2_Navigation/Nav_Breadcrumb_Dashboard"), 10)
+2025-08-02 21:09:25.885 DEBUG urityAndLogin_LoginNoCredentials_Failure - 11: verifyElementPresent(findTestObject("2_Navigation/Nav_Breadcrumb_Dashboard"), 10)
+2025-08-02 21:09:26.110 DEBUG urityAndLogin_LoginNoCredentials_Failure - 12: closeBrowser()
+2025-08-02 21:09:26.230 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/2_Navigation/TC0006_Navigation_Dashboard_Success
+2025-08-02 21:09:26.232 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-02 21:09:26.232 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/2_Navigation/TC0007_Navigation_CreateMaterial_Success
+2025-08-02 21:09:26.257 DEBUG urityAndLogin_LoginNoCredentials_Failure - 1: openBrowser("")
+2025-08-02 21:09:26.259 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-08-02 21:09:26.260 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Aug 02, 2025 9:09:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 138
+Aug 02, 2025 9:09:26 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 138.0.7204.184. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-08-02 21:09:27.308 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 4197ab948a63ea6542b80b3efafea22f
+2025-08-02 21:09:27.309 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 138.0.7204.184
+2025-08-02 21:09:27.309 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-08-02 21:09:27.309 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-08-02 21:09:27.310 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-08-02 21:09:27.317 DEBUG urityAndLogin_LoginNoCredentials_Failure - 2: maximizeWindow()
+2025-08-02 21:09:27.690 DEBUG urityAndLogin_LoginNoCredentials_Failure - 3: navigateToUrl("https://lexinqa.lexinsolutions.com/")
+2025-08-02 21:09:29.954 DEBUG urityAndLogin_LoginNoCredentials_Failure - 4: setText(findTestObject("Object Repository/1_Security and Login/Login_Input_Email"), "demo+1@nymbl.app")
+2025-08-02 21:09:31.035 DEBUG urityAndLogin_LoginNoCredentials_Failure - 5: setEncryptedText(findTestObject("Object Repository/1_Security and Login/Login_Input_Password"), "JlrLFiaChPTP/Psp+sMNCg==")
+2025-08-02 21:09:31.310 DEBUG urityAndLogin_LoginNoCredentials_Failure - 6: sendKeys(findTestObject("Object Repository/1_Security and Login/Login_Input_Password"), Keys.chord(ENTER))
+2025-08-02 21:09:31.547 DEBUG urityAndLogin_LoginNoCredentials_Failure - 7: mouseOver(findTestObject("Object Repository/2_Navigation/Nav_Button_MaterialGroup"))
+2025-08-02 21:09:35.264 DEBUG urityAndLogin_LoginNoCredentials_Failure - 8: click(findTestObject("Object Repository/2_Navigation/Nav_Button_MaterialGroup_Create"))
+2025-08-02 21:09:35.643 DEBUG urityAndLogin_LoginNoCredentials_Failure - 9: waitForElementVisible(findTestObject("Object Repository/2_Navigation/Nav_Breadcrumb_CreateMaterial"), 10)
+2025-08-02 21:09:36.193 DEBUG urityAndLogin_LoginNoCredentials_Failure - 10: verifyElementPresent(findTestObject("Object Repository/2_Navigation/Nav_Breadcrumb_CreateMaterial"), 10)
+2025-08-02 21:09:36.821 DEBUG urityAndLogin_LoginNoCredentials_Failure - 11: closeBrowser()
+2025-08-02 21:09:36.921 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/2_Navigation/TC0007_Navigation_CreateMaterial_Success
+2025-08-02 21:09:36.922 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-02 21:09:36.922 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/2_Navigation/TC0008_Navigation_Enrichment_Success
+2025-08-02 21:09:36.944 DEBUG urityAndLogin_LoginNoCredentials_Failure - 1: openBrowser("")
+2025-08-02 21:09:36.946 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-08-02 21:09:36.946 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Aug 02, 2025 9:09:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 138
+Aug 02, 2025 9:09:37 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 138.0.7204.184. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-08-02 21:09:37.981 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 2ef13ec6c74cd3b7b9d74689a63ae857
+2025-08-02 21:09:37.982 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 138.0.7204.184
+2025-08-02 21:09:37.982 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-08-02 21:09:37.982 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-08-02 21:09:37.982 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-08-02 21:09:37.987 DEBUG urityAndLogin_LoginNoCredentials_Failure - 2: maximizeWindow()
+2025-08-02 21:09:38.359 DEBUG urityAndLogin_LoginNoCredentials_Failure - 3: navigateToUrl("https://lexinqa.lexinsolutions.com/")
+2025-08-02 21:09:40.637 DEBUG urityAndLogin_LoginNoCredentials_Failure - 4: setText(findTestObject("Object Repository/1_Security and Login/Login_Input_Email"), "demo+1@nymbl.app")
+2025-08-02 21:09:41.823 DEBUG urityAndLogin_LoginNoCredentials_Failure - 5: setEncryptedText(findTestObject("Object Repository/1_Security and Login/Login_Input_Password"), "JlrLFiaChPTP/Psp+sMNCg==")
+2025-08-02 21:09:42.090 DEBUG urityAndLogin_LoginNoCredentials_Failure - 6: sendKeys(findTestObject("Object Repository/1_Security and Login/Login_Input_Password"), Keys.chord(ENTER))
+2025-08-02 21:09:42.336 DEBUG urityAndLogin_LoginNoCredentials_Failure - 7: mouseOver(findTestObject("Object Repository/2_Navigation/Nav_Button_MaterialGroup"))
+2025-08-02 21:09:51.624 DEBUG urityAndLogin_LoginNoCredentials_Failure - 8: click(findTestObject("2_Navigation/Nav_Button_MaterialGroup_Enrichment"))
+2025-08-02 21:09:52.011 DEBUG urityAndLogin_LoginNoCredentials_Failure - 9: waitForElementVisible(findTestObject("Object Repository/2_Navigation/Nav_Breadcrumb_Enrichment"), 10)
+2025-08-02 21:09:56.307 DEBUG urityAndLogin_LoginNoCredentials_Failure - 10: verifyElementPresent(findTestObject("Object Repository/2_Navigation/Nav_Breadcrumb_Enrichment"), 10)
+2025-08-02 21:09:56.529 DEBUG urityAndLogin_LoginNoCredentials_Failure - 11: closeBrowser()
+2025-08-02 21:09:56.644 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/2_Navigation/TC0008_Navigation_Enrichment_Success
+2025-08-02 21:09:56.661 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-08-02 21:09:56.661 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/Regression Tests
+2025-08-02 21:09:56.661 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================
