@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>User can not login without entered credentials</description>
-   <name>TC0009_Navigation_Extension_Success</name>
+   <name>TC2002_Navigation_Dashboard_Success</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>0df538d4-c99f-423c-a4f1-218a691ce450</testCaseGuid>
+   <testCaseGuid>d79ad1c2-4754-449f-b22d-d54756b7e442</testCaseGuid>
 </TestCaseEntity>

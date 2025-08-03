@@ -19,15 +19,15 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.maximizeWindow()
+
 WebUI.navigateToUrl('https://lexinqa.lexinsolutions.com/')
 
-WebUI.click(findTestObject('Object Repository/3_Search/input_Email_email'))
+WebUI.setText(findTestObject('Object Repository/1_Security and Login/Login_Input_Email'), 'demo+1@nymbl.app')
 
-WebUI.setText(findTestObject('Object Repository/3_Search/input_Email_email'), 'khris.samaniego@nymbl.app')
+WebUI.setEncryptedText(findTestObject('Object Repository/1_Security and Login/Login_Input_Password'), 'JlrLFiaChPTP/Psp+sMNCg==')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/3_Search/input_Password_password'), 'yMshZXsK3F08rDLxQPhNRw==')
-
-WebUI.click(findTestObject('Object Repository/3_Search/span_Sign in'))
+WebUI.sendKeys(findTestObject('Object Repository/1_Security and Login/Login_Input_Password'), Keys.chord(Keys.ENTER))
 
 WebUI.click(findTestObject('Object Repository/3_Search/button_Create_mantine-focus-auto _collapsed_a58da2'))
 

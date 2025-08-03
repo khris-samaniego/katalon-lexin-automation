@@ -28,8 +28,8 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.t
 
 
 
-RunConfiguration.setExecutionSettingFile("/Users/khrissamaniego/git/katalon-lexin-automation/Reports/20250802_210813/Regression Tests/20250802_210814/execution.properties")
+RunConfiguration.setExecutionSettingFile("/Users/khrissamaniego/git/katalon-lexin-automation/Reports/20250803_221804/Regression Tests/20250803_221804/execution.properties")
 
 TestCaseMain.beforeStart()
 
-TestCaseMain.startTestSuite('Test Suites/Regression Tests', suiteProperties, new File("/Users/khrissamaniego/git/katalon-lexin-automation/Reports/20250802_210813/Regression Tests/20250802_210814/testCaseBinding"))
+TestCaseMain.startTestSuite('Test Suites/Regression Tests', suiteProperties, new File("/Users/khrissamaniego/git/katalon-lexin-automation/Reports/20250803_221804/Regression Tests/20250803_221804/testCaseBinding"))

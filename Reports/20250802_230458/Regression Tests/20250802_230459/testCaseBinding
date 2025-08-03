@@ -1,0 +1,7 @@
+{"testCaseName":"Test Cases/1_Security and Login/TC1001_SecurityAndLogin_LoginNoCredentials_Failure","testCaseId":"Test Cases/1_Security and Login/TC1001_SecurityAndLogin_LoginNoCredentials_Failure","iterationVariableName":""}
+{"testCaseName":"Test Cases/1_Security and Login/TC0003_SecurityAndLogin_Login_Success","testCaseId":"Test Cases/1_Security and Login/TC0003_SecurityAndLogin_Login_Success","iterationVariableName":""}
+{"testCaseName":"Test Cases/1_Security and Login/TC0004_SecurityAndLogin_Logout_Success","testCaseId":"Test Cases/1_Security and Login/TC0004_SecurityAndLogin_Logout_Success","iterationVariableName":""}
+{"testCaseName":"Test Cases/2_Navigation/TC0005_Navigation_Search_Success","testCaseId":"Test Cases/2_Navigation/TC0005_Navigation_Search_Success","iterationVariableName":""}
+{"testCaseName":"Test Cases/2_Navigation/TC0006_Navigation_Dashboard_Success","testCaseId":"Test Cases/2_Navigation/TC0006_Navigation_Dashboard_Success","iterationVariableName":""}
+{"testCaseName":"Test Cases/2_Navigation/TC0007_Navigation_CreateMaterial_Success","testCaseId":"Test Cases/2_Navigation/TC0007_Navigation_CreateMaterial_Success","iterationVariableName":""}
+{"testCaseName":"Test Cases/2_Navigation/TC0008_Navigation_Enrichment_Success","testCaseId":"Test Cases/2_Navigation/TC0008_Navigation_Enrichment_Success","iterationVariableName":""}

@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Regression Tests" time="76.784" tests="8" failures="0" errors="0">
+   <testsuite name="Regression Tests" tests="8" failures="0" errors="0" time="76.784" skipped="0" timestamp="03-08-2025T22:18:06" hostname="khrissamaniego - localhost" id="Test Suites/Regression Tests">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/khrissamaniego/git/katalon-lexin-automation/Reports/20250803_221804/Regression Tests/20250803_221804"/>
+         <property name="logFiles" value="/Users/khrissamaniego/git/katalon-lexin-automation/Reports/20250803_221804/Regression Tests/20250803_221804/execution0.log, /Users/khrissamaniego/git/katalon-lexin-automation/Reports/20250803_221804/Regression Tests/20250803_221804/console0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="khrissamaniego - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="10.2.0.0"/>
+         <property name="browser" value="Chrome 138.0.7204.184"/>
+         <property name="userFullName" value="Khris Samaniego"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="02f3664f71bd7b9429a15c152afd32d8"/>
+         <property name="projectName" value="Lexin_SupplyChain_QA"/>
+         <property name="seleniumVersion" value="4.28.1"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/1_Security and Login/TC1001_SecurityAndLogin_LoginNoCredentials_Failure" time="4.644" classname="Test Cases/1_Security and Login/TC1001_SecurityAndLogin_LoginNoCredentials_Failure" status="PASSED">
+         <system-out><![CDATA[03-08-2025T22:18:06 - [TEST_CASE][PASSED] - Test Cases/1_Security and Login/TC1001_SecurityAndLogin_LoginNoCredentials_Failure: Test Cases/1_Security and Login/TC1001_SecurityAndLogin_LoginNoCredentials_Failure
+
+03-08-2025T22:18:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-08-2025T22:18:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-08-2025T22:18:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-08-2025T22:18:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-08-2025T22:18:08 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+03-08-2025T22:18:08 - [MESSAGE][PASSED] - Current window maximized
+
+03-08-2025T22:18:08 - [TEST_STEP][PASSED] - navigateToUrl("https://lexinqa.lexinsolutions.com/"): Navigate to 'https://lexinqa.lexinsolutions.com/' successfully
+
+03-08-2025T22:18:10 - [MESSAGE][PASSED] - Navigate to 'https://lexinqa.lexinsolutions.com/' successfully
+
+03-08-2025T22:18:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1_Security and Login/Login_Button_Sign in")): Object: 'Object Repository/1_Security and Login/Login_Button_Sign in' is clicked on
+
+03-08-2025T22:18:10 - [MESSAGE][PASSED] - Object: 'Object Repository/1_Security and Login/Login_Button_Sign in' is clicked on
+
+03-08-2025T22:18:10 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("1_Security and Login/Login_Button_Sign in"), 10): Object 'Object Repository/1_Security and Login/Login_Button_Sign in' is visible
+
+03-08-2025T22:18:11 - [MESSAGE][PASSED] - Object 'Object Repository/1_Security and Login/Login_Button_Sign in' is visible
+
+03-08-2025T22:18:11 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("1_Security and Login/Login_Button_Sign in")): Object 'Object Repository/1_Security and Login/Login_Button_Sign in' is visible
+
+03-08-2025T22:18:11 - [MESSAGE][PASSED] - Object 'Object Repository/1_Security and Login/Login_Button_Sign in' is visible
+
+03-08-2025T22:18:11 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-08-2025T22:18:11 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1_Security and Login/TC1002_SecurityAndLogin_LoginInvalidCredentials_Failure" time="7.823" classname="Test Cases/1_Security and Login/TC1002_SecurityAndLogin_LoginInvalidCredentials_Failure" status="PASSED">
+         <system-out><![CDATA[03-08-2025T22:18:11 - [TEST_CASE][PASSED] - Test Cases/1_Security and Login/TC1002_SecurityAndLogin_LoginInvalidCredentials_Failure: Test Cases/1_Security and Login/TC1002_SecurityAndLogin_LoginInvalidCredentials_Failure
+
+03-08-2025T22:18:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-08-2025T22:18:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-08-2025T22:18:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-08-2025T22:18:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-08-2025T22:18:12 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+03-08-2025T22:18:12 - [MESSAGE][PASSED] - Current window maximized
+
+03-08-2025T22:18:12 - [TEST_STEP][PASSED] - navigateToUrl("https://lexinqa.lexinsolutions.com/"): Navigate to 'https://lexinqa.lexinsolutions.com/' successfully
+
+03-08-2025T22:18:14 - [MESSAGE][PASSED] - Navigate to 'https://lexinqa.lexinsolutions.com/' successfully
+
+03-08-2025T22:18:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/1_Security and Login/Login_Input_Email"), "incorrectuser@mail.com"): Text 'incorrectuser@mail.com' is set on object 'Object Repository/1_Security and Login/Login_Input_Email'
+
+03-08-2025T22:18:16 - [MESSAGE][PASSED] - Text 'incorrectuser@mail.com' is set on object 'Object Repository/1_Security and Login/Login_Input_Email'
+
+03-08-2025T22:18:16 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/1_Security and Login/Login_Input_Password"), "NaRTu7UBtmpS8FmW0qSAHjP7ggMaif6d"): Text ****** has been set on object 'Object Repository/1_Security and Login/Login_Input_Password'
+
+03-08-2025T22:18:16 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/1_Security and Login/Login_Input_Password'
+
+03-08-2025T22:18:16 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/1_Security and Login/Login_Input_Password"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/1_Security and Login/Login_Input_Password'
+
+03-08-2025T22:18:16 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/1_Security and Login/Login_Input_Password'
+
+03-08-2025T22:18:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1_Security and Login/Login_Button_Sign in")): Object: 'Object Repository/1_Security and Login/Login_Button_Sign in' is clicked on
+
+03-08-2025T22:18:18 - [MESSAGE][PASSED] - Object: 'Object Repository/1_Security and Login/Login_Button_Sign in' is clicked on
+
+03-08-2025T22:18:18 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/1_Security and Login/Login_Text_LoginFailed"), 10): Object 'Object Repository/1_Security and Login/Login_Text_LoginFailed' is visible
+
+03-08-2025T22:18:18 - [MESSAGE][PASSED] - Object 'Object Repository/1_Security and Login/Login_Text_LoginFailed' is visible
+
+03-08-2025T22:18:18 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/1_Security and Login/Login_Text_LoginFailed")): Object 'Object Repository/1_Security and Login/Login_Text_LoginFailed' is visible
+
+03-08-2025T22:18:19 - [MESSAGE][PASSED] - Object 'Object Repository/1_Security and Login/Login_Text_LoginFailed' is visible
+
+03-08-2025T22:18:19 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-08-2025T22:18:19 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1_Security and Login/TC1003_SecurityAndLogin_Login_Success" time="8.9" classname="Test Cases/1_Security and Login/TC1003_SecurityAndLogin_Login_Success" status="PASSED">
+         <system-out><![CDATA[03-08-2025T22:18:19 - [TEST_CASE][PASSED] - Test Cases/1_Security and Login/TC1003_SecurityAndLogin_Login_Success: Test Cases/1_Security and Login/TC1003_SecurityAndLogin_Login_Success
+
+03-08-2025T22:18:19 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-08-2025T22:18:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-08-2025T22:18:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-08-2025T22:18:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-08-2025T22:18:20 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+03-08-2025T22:18:20 - [MESSAGE][PASSED] - Current window maximized
+
+03-08-2025T22:18:20 - [TEST_STEP][PASSED] - navigateToUrl("https://lexinqa.lexinsolutions.com/"): Navigate to 'https://lexinqa.lexinsolutions.com/' successfully
+
+03-08-2025T22:18:22 - [MESSAGE][PASSED] - Navigate to 'https://lexinqa.lexinsolutions.com/' successfully
+
+03-08-2025T22:18:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/1_Security and Login/Login_Input_Email"), "demo+1@nymbl.app"): Text 'demo+1@nymbl.app' is set on object 'Object Repository/1_Security and Login/Login_Input_Email'
+
+03-08-2025T22:18:23 - [MESSAGE][PASSED] - Text 'demo+1@nymbl.app' is set on object 'Object Repository/1_Security and Login/Login_Input_Email'
+
+03-08-2025T22:18:23 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/1_Security and Login/Login_Input_Password"), "JlrLFiaChPTP/Psp+sMNCg=="): Text ****** has been set on object 'Object Repository/1_Security and Login/Login_Input_Password'
+
+03-08-2025T22:18:24 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/1_Security and Login/Login_Input_Password'
+
+03-08-2025T22:18:24 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/1_Security and Login/Login_Input_Password"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/1_Security and Login/Login_Input_Password'
+
+03-08-2025T22:18:24 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/1_Security and Login/Login_Input_Password'
+
+03-08-2025T22:18:24 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+03-08-2025T22:18:24 - [MESSAGE][PASSED] - Wait for page load successfully
+
+03-08-2025T22:18:24 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("2_Navigation/Nav_Breadcrumb_Dashboard"), 10): Object 'Object Repository/2_Navigation/Nav_Breadcrumb_Dashboard' is visible
+
+03-08-2025T22:18:27 - [MESSAGE][PASSED] - Object 'Object Repository/2_Navigation/Nav_Breadcrumb_Dashboard' is visible
+
+03-08-2025T22:18:27 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("2_Navigation/Nav_Breadcrumb_Dashboard")): Object 'Object Repository/2_Navigation/Nav_Breadcrumb_Dashboard' is visible
+
+03-08-2025T22:18:28 - [MESSAGE][PASSED] - Object 'Object Repository/2_Navigation/Nav_Breadcrumb_Dashboard' is visible
+
+03-08-2025T22:18:28 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-08-2025T22:18:28 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1_Security and Login/TC1004_SecurityAndLogin_Logout_Success" time="10.513" classname="Test Cases/1_Security and Login/TC1004_SecurityAndLogin_Logout_Success" status="PASSED">
+         <system-out><![CDATA[03-08-2025T22:18:28 - [TEST_CASE][PASSED] - Test Cases/1_Security and Login/TC1004_SecurityAndLogin_Logout_Success: Test Cases/1_Security and Login/TC1004_SecurityAndLogin_Logout_Success
+
+03-08-2025T22:18:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-08-2025T22:18:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-08-2025T22:18:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-08-2025T22:18:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-08-2025T22:18:29 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+03-08-2025T22:18:29 - [MESSAGE][PASSED] - Current window maximized
+
+03-08-2025T22:18:29 - [TEST_STEP][PASSED] - navigateToUrl("https://lexinqa.lexinsolutions.com/"): Navigate to 'https://lexinqa.lexinsolutions.com/' successfully
+
+03-08-2025T22:18:31 - [MESSAGE][PASSED] - Navigate to 'https://lexinqa.lexinsolutions.com/' successfully
+
+03-08-2025T22:18:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/1_Security and Login/Login_Input_Email"), "demo+1@nymbl.app"): Text 'demo+1@nymbl.app' is set on object 'Object Repository/1_Security and Login/Login_Input_Email'
+
+03-08-2025T22:18:32 - [MESSAGE][PASSED] - Text 'demo+1@nymbl.app' is set on object 'Object Repository/1_Security and Login/Login_Input_Email'
+
+03-08-2025T22:18:32 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/1_Security and Login/Login_Input_Password"), "JlrLFiaChPTP/Psp+sMNCg=="): Text ****** has been set on object 'Object Repository/1_Security and Login/Login_Input_Password'
+
+03-08-2025T22:18:32 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/1_Security and Login/Login_Input_Password'
+
+03-08-2025T22:18:32 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/1_Security and Login/Login_Input_Password"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/1_Security and Login/Login_Input_Password'
+
+03-08-2025T22:18:33 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/1_Security and Login/Login_Input_Password'
+
+03-08-2025T22:18:33 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("2_Navigation/Nav_Breadcrumb_Dashboard"), 10): Object 'Object Repository/2_Navigation/Nav_Breadcrumb_Dashboard' is visible
+
+03-08-2025T22:18:37 - [MESSAGE][PASSED] - Object 'Object Repository/2_Navigation/Nav_Breadcrumb_Dashboard' is visible
+
+03-08-2025T22:18:37 - [TEST_STEP][PASSED] - click(findTestObject("2_Navigation/Nav_Dropdown_Utility")): Object: 'Object Repository/2_Navigation/Nav_Dropdown_Utility' is clicked on
+
+03-08-2025T22:18:37 - [MESSAGE][PASSED] - Object: 'Object Repository/2_Navigation/Nav_Dropdown_Utility' is clicked on
+
+03-08-2025T22:18:37 - [TEST_STEP][PASSED] - click(findTestObject("2_Navigation/Nav_Utility_button_Logout")): Object: 'Object Repository/2_Navigation/Nav_Utility_button_Logout' is clicked on
+
+03-08-2025T22:18:37 - [MESSAGE][PASSED] - Object: 'Object Repository/2_Navigation/Nav_Utility_button_Logout' is clicked on
+
+03-08-2025T22:18:37 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+03-08-2025T22:18:37 - [MESSAGE][PASSED] - Wait for page load successfully
+
+03-08-2025T22:18:37 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("1_Security and Login/Login_Text_WelcomeBack"), 10): Object 'Object Repository/1_Security and Login/Login_Text_WelcomeBack' is visible
+
+03-08-2025T22:18:38 - [MESSAGE][PASSED] - Object 'Object Repository/1_Security and Login/Login_Text_WelcomeBack' is visible
+
+03-08-2025T22:18:38 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("1_Security and Login/Login_Text_WelcomeBack")): Object 'Object Repository/1_Security and Login/Login_Text_WelcomeBack' is visible
+
+03-08-2025T22:18:38 - [MESSAGE][PASSED] - Object 'Object Repository/1_Security and Login/Login_Text_WelcomeBack' is visible
+
+03-08-2025T22:18:38 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+03-08-2025T22:18:38 - [MESSAGE][PASSED] - Wait for page load successfully
+
+03-08-2025T22:18:38 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-08-2025T22:18:38 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/2_Navigation/TC2001_Navigation_Search_Success" time="10.37" classname="Test Cases/2_Navigation/TC2001_Navigation_Search_Success" status="PASSED">
+         <system-out><![CDATA[03-08-2025T22:18:38 - [TEST_CASE][PASSED] - Test Cases/2_Navigation/TC2001_Navigation_Search_Success: Test Cases/2_Navigation/TC2001_Navigation_Search_Success
+
+03-08-2025T22:18:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-08-2025T22:18:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-08-2025T22:18:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-08-2025T22:18:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-08-2025T22:18:39 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+03-08-2025T22:18:40 - [MESSAGE][PASSED] - Current window maximized
+
+03-08-2025T22:18:40 - [TEST_STEP][PASSED] - navigateToUrl("https://lexinqa.lexinsolutions.com/"): Navigate to 'https://lexinqa.lexinsolutions.com/' successfully
+
+03-08-2025T22:18:42 - [MESSAGE][PASSED] - Navigate to 'https://lexinqa.lexinsolutions.com/' successfully
+
+03-08-2025T22:18:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/1_Security and Login/Login_Input_Email"), "demo+1@nymbl.app"): Text 'demo+1@nymbl.app' is set on object 'Object Repository/1_Security and Login/Login_Input_Email'
+
+03-08-2025T22:18:43 - [MESSAGE][PASSED] - Text 'demo+1@nymbl.app' is set on object 'Object Repository/1_Security and Login/Login_Input_Email'
+
+03-08-2025T22:18:43 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/1_Security and Login/Login_Input_Password"), "JlrLFiaChPTP/Psp+sMNCg=="): Text ****** has been set on object 'Object Repository/1_Security and Login/Login_Input_Password'
+
+03-08-2025T22:18:43 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/1_Security and Login/Login_Input_Password'
+
+03-08-2025T22:18:43 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/1_Security and Login/Login_Input_Password"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/1_Security and Login/Login_Input_Password'
+
+03-08-2025T22:18:43 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/1_Security and Login/Login_Input_Password'
+
+03-08-2025T22:18:43 - [TEST_STEP][PASSED] - click(findTestObject("2_Navigation/Nav_Button_Search")): Object: 'Object Repository/2_Navigation/Nav_Button_Search' is clicked on
+
+03-08-2025T22:18:47 - [MESSAGE][PASSED] - Object: 'Object Repository/2_Navigation/Nav_Button_Search' is clicked on
+
+03-08-2025T22:18:47 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/3_Search/Search_Breadcrumb_Search"), 10): Object 'Object Repository/3_Search/Search_Breadcrumb_Search' is visible
+
+03-08-2025T22:18:48 - [MESSAGE][PASSED] - Object 'Object Repository/3_Search/Search_Breadcrumb_Search' is visible
+
+03-08-2025T22:18:48 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/3_Search/Search_Breadcrumb_Search"), 10): Object 'Object Repository/3_Search/Search_Breadcrumb_Search' is present
+
+03-08-2025T22:18:48 - [MESSAGE][PASSED] - Object 'Object Repository/3_Search/Search_Breadcrumb_Search' is present
+
+03-08-2025T22:18:48 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-08-2025T22:18:49 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/2_Navigation/TC2002_Navigation_Dashboard_Success" time="11.651" classname="Test Cases/2_Navigation/TC2002_Navigation_Dashboard_Success" status="PASSED">
+         <system-out><![CDATA[03-08-2025T22:18:49 - [TEST_CASE][PASSED] - Test Cases/2_Navigation/TC2002_Navigation_Dashboard_Success: Test Cases/2_Navigation/TC2002_Navigation_Dashboard_Success
+
+03-08-2025T22:18:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-08-2025T22:18:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-08-2025T22:18:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-08-2025T22:18:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-08-2025T22:18:50 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+03-08-2025T22:18:50 - [MESSAGE][PASSED] - Current window maximized
+
+03-08-2025T22:18:50 - [TEST_STEP][PASSED] - navigateToUrl("https://lexinqa.lexinsolutions.com/"): Navigate to 'https://lexinqa.lexinsolutions.com/' successfully
+
+03-08-2025T22:18:52 - [MESSAGE][PASSED] - Navigate to 'https://lexinqa.lexinsolutions.com/' successfully
+
+03-08-2025T22:18:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/1_Security and Login/Login_Input_Email"), "demo+1@nymbl.app"): Text 'demo+1@nymbl.app' is set on object 'Object Repository/1_Security and Login/Login_Input_Email'
+
+03-08-2025T22:18:53 - [MESSAGE][PASSED] - Text 'demo+1@nymbl.app' is set on object 'Object Repository/1_Security and Login/Login_Input_Email'
+
+03-08-2025T22:18:53 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/1_Security and Login/Login_Input_Password"), "JlrLFiaChPTP/Psp+sMNCg=="): Text ****** has been set on object 'Object Repository/1_Security and Login/Login_Input_Password'
+
+03-08-2025T22:18:53 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/1_Security and Login/Login_Input_Password'
+
+03-08-2025T22:18:53 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/1_Security and Login/Login_Input_Password"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/1_Security and Login/Login_Input_Password'
+
+03-08-2025T22:18:54 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/1_Security and Login/Login_Input_Password'
+
+03-08-2025T22:18:54 - [TEST_STEP][PASSED] - click(findTestObject("2_Navigation/Nav_Button_Search")): Object: 'Object Repository/2_Navigation/Nav_Button_Search' is clicked on
+
+03-08-2025T22:18:57 - [MESSAGE][PASSED] - Object: 'Object Repository/2_Navigation/Nav_Button_Search' is clicked on
+
+03-08-2025T22:18:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/3_Search/Search_Breadcrumb_Search"), 10): Object 'Object Repository/3_Search/Search_Breadcrumb_Search' is present
+
+03-08-2025T22:18:58 - [MESSAGE][PASSED] - Object 'Object Repository/3_Search/Search_Breadcrumb_Search' is present
+
+03-08-2025T22:18:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/2_Navigation/Nav_Button_Dashboard")): Object: 'Object Repository/2_Navigation/Nav_Button_Dashboard' is clicked on
+
+03-08-2025T22:18:58 - [MESSAGE][PASSED] - Object: 'Object Repository/2_Navigation/Nav_Button_Dashboard' is clicked on
+
+03-08-2025T22:18:58 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("2_Navigation/Nav_Breadcrumb_Dashboard"), 10): Object 'Object Repository/2_Navigation/Nav_Breadcrumb_Dashboard' is visible
+
+03-08-2025T22:19:00 - [MESSAGE][PASSED] - Object 'Object Repository/2_Navigation/Nav_Breadcrumb_Dashboard' is visible
+
+03-08-2025T22:19:00 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("2_Navigation/Nav_Breadcrumb_Dashboard"), 10): Object 'Object Repository/2_Navigation/Nav_Breadcrumb_Dashboard' is present
+
+03-08-2025T22:19:00 - [MESSAGE][PASSED] - Object 'Object Repository/2_Navigation/Nav_Breadcrumb_Dashboard' is present
+
+03-08-2025T22:19:00 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-08-2025T22:19:00 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/2_Navigation/TC2003_Navigation_CreateMaterial_Success" time="11.76" classname="Test Cases/2_Navigation/TC2003_Navigation_CreateMaterial_Success" status="PASSED">
+         <system-out><![CDATA[03-08-2025T22:19:00 - [TEST_CASE][PASSED] - Test Cases/2_Navigation/TC2003_Navigation_CreateMaterial_Success: Test Cases/2_Navigation/TC2003_Navigation_CreateMaterial_Success
+
+03-08-2025T22:19:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-08-2025T22:19:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-08-2025T22:19:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-08-2025T22:19:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-08-2025T22:19:01 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+03-08-2025T22:19:02 - [MESSAGE][PASSED] - Current window maximized
+
+03-08-2025T22:19:02 - [TEST_STEP][PASSED] - navigateToUrl("https://lexinqa.lexinsolutions.com/"): Navigate to 'https://lexinqa.lexinsolutions.com/' successfully
+
+03-08-2025T22:19:04 - [MESSAGE][PASSED] - Navigate to 'https://lexinqa.lexinsolutions.com/' successfully
+
+03-08-2025T22:19:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/1_Security and Login/Login_Input_Email"), "demo+1@nymbl.app"): Text 'demo+1@nymbl.app' is set on object 'Object Repository/1_Security and Login/Login_Input_Email'
+
+03-08-2025T22:19:05 - [MESSAGE][PASSED] - Text 'demo+1@nymbl.app' is set on object 'Object Repository/1_Security and Login/Login_Input_Email'
+
+03-08-2025T22:19:05 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/1_Security and Login/Login_Input_Password"), "JlrLFiaChPTP/Psp+sMNCg=="): Text ****** has been set on object 'Object Repository/1_Security and Login/Login_Input_Password'
+
+03-08-2025T22:19:05 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/1_Security and Login/Login_Input_Password'
+
+03-08-2025T22:19:05 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/1_Security and Login/Login_Input_Password"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/1_Security and Login/Login_Input_Password'
+
+03-08-2025T22:19:06 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/1_Security and Login/Login_Input_Password'
+
+03-08-2025T22:19:06 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Object Repository/2_Navigation/Nav_Button_MaterialGroup")): Object: 'Object Repository/2_Navigation/Nav_Button_MaterialGroup' is hovered
+
+03-08-2025T22:19:11 - [MESSAGE][PASSED] - Object: 'Object Repository/2_Navigation/Nav_Button_MaterialGroup' is hovered
+
+03-08-2025T22:19:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/2_Navigation/Nav_Button_MaterialGroup_Create")): Object: 'Object Repository/2_Navigation/Nav_Button_MaterialGroup_Create' is clicked on
+
+03-08-2025T22:19:11 - [MESSAGE][PASSED] - Object: 'Object Repository/2_Navigation/Nav_Button_MaterialGroup_Create' is clicked on
+
+03-08-2025T22:19:11 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/2_Navigation/Nav_Breadcrumb_CreateMaterial"), 10): Object 'Object Repository/2_Navigation/Nav_Breadcrumb_CreateMaterial' is visible
+
+03-08-2025T22:19:12 - [MESSAGE][PASSED] - Object 'Object Repository/2_Navigation/Nav_Breadcrumb_CreateMaterial' is visible
+
+03-08-2025T22:19:12 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/2_Navigation/Nav_Breadcrumb_CreateMaterial"), 10): Object 'Object Repository/2_Navigation/Nav_Breadcrumb_CreateMaterial' is present
+
+03-08-2025T22:19:12 - [MESSAGE][PASSED] - Object 'Object Repository/2_Navigation/Nav_Breadcrumb_CreateMaterial' is present
+
+03-08-2025T22:19:12 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-08-2025T22:19:12 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/2_Navigation/TC2004_Navigation_Enrichment_Success" time="10.916" classname="Test Cases/2_Navigation/TC2004_Navigation_Enrichment_Success" status="PASSED">
+         <system-out><![CDATA[03-08-2025T22:19:12 - [TEST_CASE][PASSED] - Test Cases/2_Navigation/TC2004_Navigation_Enrichment_Success: Test Cases/2_Navigation/TC2004_Navigation_Enrichment_Success
+
+03-08-2025T22:19:12 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-08-2025T22:19:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-08-2025T22:19:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-08-2025T22:19:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-08-2025T22:19:13 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+03-08-2025T22:19:13 - [MESSAGE][PASSED] - Current window maximized
+
+03-08-2025T22:19:13 - [TEST_STEP][PASSED] - navigateToUrl("https://lexinqa.lexinsolutions.com/"): Navigate to 'https://lexinqa.lexinsolutions.com/' successfully
+
+03-08-2025T22:19:15 - [MESSAGE][PASSED] - Navigate to 'https://lexinqa.lexinsolutions.com/' successfully
+
+03-08-2025T22:19:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/1_Security and Login/Login_Input_Email"), "demo+1@nymbl.app"): Text 'demo+1@nymbl.app' is set on object 'Object Repository/1_Security and Login/Login_Input_Email'
+
+03-08-2025T22:19:16 - [MESSAGE][PASSED] - Text 'demo+1@nymbl.app' is set on object 'Object Repository/1_Security and Login/Login_Input_Email'
+
+03-08-2025T22:19:16 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/1_Security and Login/Login_Input_Password"), "JlrLFiaChPTP/Psp+sMNCg=="): Text ****** has been set on object 'Object Repository/1_Security and Login/Login_Input_Password'
+
+03-08-2025T22:19:17 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/1_Security and Login/Login_Input_Password'
+
+03-08-2025T22:19:17 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/1_Security and Login/Login_Input_Password"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/1_Security and Login/Login_Input_Password'
+
+03-08-2025T22:19:17 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/1_Security and Login/Login_Input_Password'
+
+03-08-2025T22:19:17 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Object Repository/2_Navigation/Nav_Button_MaterialGroup")): Object: 'Object Repository/2_Navigation/Nav_Button_MaterialGroup' is hovered
+
+03-08-2025T22:19:21 - [MESSAGE][PASSED] - Object: 'Object Repository/2_Navigation/Nav_Button_MaterialGroup' is hovered
+
+03-08-2025T22:19:21 - [TEST_STEP][PASSED] - click(findTestObject("2_Navigation/Nav_Button_MaterialGroup_Enrichment")): Object: 'Object Repository/2_Navigation/Nav_Button_MaterialGroup_Enrichment' is clicked on
+
+03-08-2025T22:19:21 - [MESSAGE][PASSED] - Object: 'Object Repository/2_Navigation/Nav_Button_MaterialGroup_Enrichment' is clicked on
+
+03-08-2025T22:19:21 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/2_Navigation/Nav_Breadcrumb_Enrichment"), 10): Object 'Object Repository/2_Navigation/Nav_Breadcrumb_Enrichment' is visible
+
+03-08-2025T22:19:23 - [MESSAGE][PASSED] - Object 'Object Repository/2_Navigation/Nav_Breadcrumb_Enrichment' is visible
+
+03-08-2025T22:19:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/2_Navigation/Nav_Breadcrumb_Enrichment"), 10): Object 'Object Repository/2_Navigation/Nav_Breadcrumb_Enrichment' is present
+
+03-08-2025T22:19:23 - [MESSAGE][PASSED] - Object 'Object Repository/2_Navigation/Nav_Breadcrumb_Enrichment' is present
+
+03-08-2025T22:19:23 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-08-2025T22:19:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[03-08-2025T22:18:06 - [TEST_SUITE][PASSED] - Regression Tests: Test Cases/2_Navigation/TC2004_Navigation_Enrichment_Success]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

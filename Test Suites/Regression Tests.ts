@@ -19,59 +19,52 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>a816738a-acbe-4a16-a1cd-1e78775a20e9</guid>
+      <guid>7155310a-7691-4c17-ba77-d9a687f13ab2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/1_Security and Login/TC0002_SecurityAndLogin_LoginInvalidCredentials_Failure</testCaseId>
+      <testCaseId>Test Cases/1_Security and Login/TC1002_SecurityAndLogin_LoginInvalidCredentials_Failure</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>e29aa432-3322-412b-87c8-7b7638a27626</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/1_Security and Login/TC0003_SecurityAndLogin_Login_Success</testCaseId>
+      <testCaseId>Test Cases/1_Security and Login/TC1003_SecurityAndLogin_Login_Success</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>2969cb58-8fcb-49a1-8eb8-9eb9cc5de239</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/1_Security and Login/TC0004_SecurityAndLogin_Logout_Success</testCaseId>
+      <testCaseId>Test Cases/1_Security and Login/TC1004_SecurityAndLogin_Logout_Success</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>d70e796d-d20a-479d-86d5-ad56837cf896</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/2_Navigation/TC0005_Navigation_Search_Success</testCaseId>
+      <testCaseId>Test Cases/2_Navigation/TC2001_Navigation_Search_Success</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>9b9db9fe-6f32-43af-9520-1c643f3bf128</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/2_Navigation/TC0006_Navigation_Dashboard_Success</testCaseId>
+      <testCaseId>Test Cases/2_Navigation/TC2002_Navigation_Dashboard_Success</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>380f0849-a0ee-4ecb-8593-61e5c3d43491</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/2_Navigation/TC0007_Navigation_CreateMaterial_Success</testCaseId>
+      <testCaseId>Test Cases/2_Navigation/TC2003_Navigation_CreateMaterial_Success</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>f41b2833-df21-4b1a-9c80-487c47727ff7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/2_Navigation/TC0008_Navigation_Enrichment_Success</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>9957d25d-b36f-439e-8bc3-f204fef738dc</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/3_Search/TC3001_Search_ValidMaterialNumber_Success</testCaseId>
+      <testCaseId>Test Cases/2_Navigation/TC2004_Navigation_Enrichment_Success</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
