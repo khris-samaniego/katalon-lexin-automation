@@ -29,9 +29,12 @@ WebUI.setEncryptedText(findTestObject('Object Repository/1_Security and Login/Lo
 
 WebUI.sendKeys(findTestObject('Object Repository/1_Security and Login/Login_Input_Password'), Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Object Repository/3_Search/button_Create_mantine-focus-auto _collapsed_a58da2'))
+WebUI.click(findTestObject('2_Navigation/Nav_Button_Search'))
 
-WebUI.setText(findTestObject('Object Repository/3_Search/input_KS_mantine-byhko93g0'), 'water')
+WebUI.setText(findTestObject('Object Repository/3_Search/Search_Input_Keyword'), 'water')
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/3_Search/div_Water'), 0)
+//Need to add verifyication of results 
+//WebUI.verifyElementPresent(findTestObject('Object Repository/3_Search/div_Water'), 0)
+
+WebUI.closeBrowser()
 

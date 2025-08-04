@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_KS_mantine-byhko93g0</name>
+   <name>Search_Input_Keyword</name>
    <tag></tag>
    <elementGuidId>2fa6e992-2336-4c7f-bb03-df3e86a06f95</elementGuidId>
    <selectorCollection>
