@@ -1,0 +1,137 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Regression Tests,Chrome 138.0.7204.184,,,04-08-2025 13:04:53,04-08-2025 13:06:54,2m - 0.836s,PASSED
+,,,,,,,
+Test Cases/1_Security and Login/TC1001_SecurityAndLogin_LoginNoCredentials_Failure,Chrome 138.0.7204.184,User can not login without entered credentials,,04-08-2025 13:04:54,04-08-2025 13:04:59,5.521s,PASSED
+"openBrowser("""")",Chrome 138.0.7204.184,,,04-08-2025 13:04:54,04-08-2025 13:04:56,2.180s,PASSED
+maximizeWindow(),Chrome 138.0.7204.184,,,04-08-2025 13:04:56,04-08-2025 13:04:56,0.384s,PASSED
+"navigateToUrl(""https://lexinqa.lexinsolutions.com/"")",Chrome 138.0.7204.184,,,04-08-2025 13:04:56,04-08-2025 13:04:58,1.385s,PASSED
+"click(findTestObject(""Object Repository/1_Security and Login/Login_Button_Sign in""))",Chrome 138.0.7204.184,Click Sign In button without any input,,04-08-2025 13:04:58,04-08-2025 13:04:58,0.825s,PASSED
+"waitForElementVisible(findTestObject(""1_Security and Login/Login_Button_Sign in""), 10)",Chrome 138.0.7204.184,,,04-08-2025 13:04:58,04-08-2025 13:04:59,0.269s,PASSED
+"verifyElementVisible(findTestObject(""1_Security and Login/Login_Button_Sign in""))",Chrome 138.0.7204.184,Verify user is still in the login page,,04-08-2025 13:04:59,04-08-2025 13:04:59,0.226s,PASSED
+closeBrowser(),Chrome 138.0.7204.184,,,04-08-2025 13:04:59,04-08-2025 13:04:59,0.100s,PASSED
+,,,,,,,
+Test Cases/1_Security and Login/TC1002_SecurityAndLogin_LoginInvalidCredentials_Failure,Chrome 138.0.7204.184,User can not login without entered credentials,,04-08-2025 13:04:59,04-08-2025 13:05:07,8.366s,PASSED
+"openBrowser("""")",Chrome 138.0.7204.184,,,04-08-2025 13:04:59,04-08-2025 13:05:00,1.116s,PASSED
+maximizeWindow(),Chrome 138.0.7204.184,,,04-08-2025 13:05:00,04-08-2025 13:05:01,0.376s,PASSED
+"navigateToUrl(""https://lexinqa.lexinsolutions.com/"")",Chrome 138.0.7204.184,,,04-08-2025 13:05:01,04-08-2025 13:05:03,2.313s,PASSED
+"setText(findTestObject(""Object Repository/1_Security and Login/Login_Input_Email""), ""incorrectuser@mail.com"")",Chrome 138.0.7204.184,,,04-08-2025 13:05:03,04-08-2025 13:05:04,1.221s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/1_Security and Login/Login_Input_Password""), ""NaRTu7UBtmpS8FmW0qSAHjP7ggMaif6d"")",Chrome 138.0.7204.184,,,04-08-2025 13:05:04,04-08-2025 13:05:04,0.266s,PASSED
+"sendKeys(findTestObject(""Object Repository/1_Security and Login/Login_Input_Password""), Keys.chord(ENTER))",Chrome 138.0.7204.184,,,04-08-2025 13:05:04,04-08-2025 13:05:05,0.249s,PASSED
+"click(findTestObject(""Object Repository/1_Security and Login/Login_Button_Sign in""))",Chrome 138.0.7204.184,,,04-08-2025 13:05:05,04-08-2025 13:05:06,1.607s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/1_Security and Login/Login_Text_LoginFailed""), 10)",Chrome 138.0.7204.184,,,04-08-2025 13:05:06,04-08-2025 13:05:07,0.854s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/1_Security and Login/Login_Text_LoginFailed""))",Chrome 138.0.7204.184,,,04-08-2025 13:05:07,04-08-2025 13:05:07,0.237s,PASSED
+closeBrowser(),Chrome 138.0.7204.184,,,04-08-2025 13:05:07,04-08-2025 13:05:07,0.097s,PASSED
+,,,,,,,
+Test Cases/1_Security and Login/TC1003_SecurityAndLogin_Login_Success,Chrome 138.0.7204.184,User can not login without entered credentials,,04-08-2025 13:05:07,04-08-2025 13:05:18,10.469s,PASSED
+"openBrowser("""")",Chrome 138.0.7204.184,,,04-08-2025 13:05:07,04-08-2025 13:05:09,1.120s,PASSED
+maximizeWindow(),Chrome 138.0.7204.184,,,04-08-2025 13:05:09,04-08-2025 13:05:09,0.381s,PASSED
+"navigateToUrl(""https://lexinqa.lexinsolutions.com/"")",Chrome 138.0.7204.184,,,04-08-2025 13:05:09,04-08-2025 13:05:11,2.380s,PASSED
+"setText(findTestObject(""Object Repository/1_Security and Login/Login_Input_Email""), ""demo+1@nymbl.app"")",Chrome 138.0.7204.184,,,04-08-2025 13:05:11,04-08-2025 13:05:13,1.209s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/1_Security and Login/Login_Input_Password""), ""JlrLFiaChPTP/Psp+sMNCg=="")",Chrome 138.0.7204.184,,,04-08-2025 13:05:13,04-08-2025 13:05:13,0.273s,PASSED
+"sendKeys(findTestObject(""Object Repository/1_Security and Login/Login_Input_Password""), Keys.chord(ENTER))",Chrome 138.0.7204.184,,,04-08-2025 13:05:13,04-08-2025 13:05:13,0.247s,PASSED
+waitForPageLoad(10),Chrome 138.0.7204.184,,,04-08-2025 13:05:13,04-08-2025 13:05:13,0.021s,PASSED
+"waitForElementVisible(findTestObject(""2_Navigation/Nav_Breadcrumb_Dashboard""), 10)",Chrome 138.0.7204.184,,,04-08-2025 13:05:13,04-08-2025 13:05:18,4.480s,PASSED
+"verifyElementVisible(findTestObject(""2_Navigation/Nav_Breadcrumb_Dashboard""))",Chrome 138.0.7204.184,,,04-08-2025 13:05:18,04-08-2025 13:05:18,0.236s,PASSED
+closeBrowser(),Chrome 138.0.7204.184,,,04-08-2025 13:05:18,04-08-2025 13:05:18,0.094s,PASSED
+,,,,,,,
+Test Cases/1_Security and Login/TC1004_SecurityAndLogin_Logout_Success,Chrome 138.0.7204.184,User can not login without entered credentials,,04-08-2025 13:05:18,04-08-2025 13:05:33,14.712s,PASSED
+"openBrowser("""")",Chrome 138.0.7204.184,,,04-08-2025 13:05:18,04-08-2025 13:05:23,4.888s,PASSED
+maximizeWindow(),Chrome 138.0.7204.184,,,04-08-2025 13:05:23,04-08-2025 13:05:23,0.376s,PASSED
+"navigateToUrl(""https://lexinqa.lexinsolutions.com/"")",Chrome 138.0.7204.184,,,04-08-2025 13:05:23,04-08-2025 13:05:24,1.211s,PASSED
+"setText(findTestObject(""Object Repository/1_Security and Login/Login_Input_Email""), ""demo+1@nymbl.app"")",Chrome 138.0.7204.184,,,04-08-2025 13:05:24,04-08-2025 13:05:25,1.103s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/1_Security and Login/Login_Input_Password""), ""JlrLFiaChPTP/Psp+sMNCg=="")",Chrome 138.0.7204.184,,,04-08-2025 13:05:25,04-08-2025 13:05:26,0.272s,PASSED
+"sendKeys(findTestObject(""Object Repository/1_Security and Login/Login_Input_Password""), Keys.chord(ENTER))",Chrome 138.0.7204.184,,,04-08-2025 13:05:26,04-08-2025 13:05:26,0.246s,PASSED
+"waitForElementVisible(findTestObject(""2_Navigation/Nav_Breadcrumb_Dashboard""), 10)",Chrome 138.0.7204.184,,,04-08-2025 13:05:26,04-08-2025 13:05:31,5.002s,PASSED
+"click(findTestObject(""2_Navigation/Nav_Dropdown_Utility""))",Chrome 138.0.7204.184,,,04-08-2025 13:05:31,04-08-2025 13:05:31,0.300s,PASSED
+"click(findTestObject(""2_Navigation/Nav_Utility_button_Logout""))",Chrome 138.0.7204.184,,,04-08-2025 13:05:31,04-08-2025 13:05:32,0.489s,PASSED
+waitForPageLoad(10),Chrome 138.0.7204.184,,,04-08-2025 13:05:32,04-08-2025 13:05:32,0.020s,PASSED
+"waitForElementVisible(findTestObject(""1_Security and Login/Login_Text_WelcomeBack""), 10)",Chrome 138.0.7204.184,,,04-08-2025 13:05:32,04-08-2025 13:05:32,0.441s,PASSED
+"verifyElementVisible(findTestObject(""1_Security and Login/Login_Text_WelcomeBack""))",Chrome 138.0.7204.184,,,04-08-2025 13:05:32,04-08-2025 13:05:32,0.227s,PASSED
+waitForPageLoad(10),Chrome 138.0.7204.184,,,04-08-2025 13:05:32,04-08-2025 13:05:32,0.007s,PASSED
+closeBrowser(),Chrome 138.0.7204.184,,,04-08-2025 13:05:32,04-08-2025 13:05:33,0.099s,PASSED
+,,,,,,,
+Test Cases/2_Navigation/TC2001_Navigation_Search_Success,Chrome 138.0.7204.184,User can not login without entered credentials,,04-08-2025 13:05:33,04-08-2025 13:05:45,12.385s,PASSED
+"openBrowser("""")",Chrome 138.0.7204.184,,,04-08-2025 13:05:33,04-08-2025 13:05:34,1.138s,PASSED
+maximizeWindow(),Chrome 138.0.7204.184,,,04-08-2025 13:05:34,04-08-2025 13:05:34,0.374s,PASSED
+"navigateToUrl(""https://lexinqa.lexinsolutions.com/"")",Chrome 138.0.7204.184,,,04-08-2025 13:05:34,04-08-2025 13:05:36,2.324s,PASSED
+"setText(findTestObject(""Object Repository/1_Security and Login/Login_Input_Email""), ""demo+1@nymbl.app"")",Chrome 138.0.7204.184,,,04-08-2025 13:05:36,04-08-2025 13:05:38,1.102s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/1_Security and Login/Login_Input_Password""), ""JlrLFiaChPTP/Psp+sMNCg=="")",Chrome 138.0.7204.184,,,04-08-2025 13:05:38,04-08-2025 13:05:38,0.270s,PASSED
+"sendKeys(findTestObject(""Object Repository/1_Security and Login/Login_Input_Password""), Keys.chord(ENTER))",Chrome 138.0.7204.184,,,04-08-2025 13:05:38,04-08-2025 13:05:38,0.242s,PASSED
+"click(findTestObject(""2_Navigation/Nav_Button_Search""))",Chrome 138.0.7204.184,,,04-08-2025 13:05:38,04-08-2025 13:05:43,4.605s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/3_Search/Search_Breadcrumb_Search""), 10)",Chrome 138.0.7204.184,,,04-08-2025 13:05:43,04-08-2025 13:05:45,1.966s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/3_Search/Search_Breadcrumb_Search""), 10)",Chrome 138.0.7204.184,,,04-08-2025 13:05:45,04-08-2025 13:05:45,0.229s,PASSED
+closeBrowser(),Chrome 138.0.7204.184,,,04-08-2025 13:05:45,04-08-2025 13:05:45,0.109s,PASSED
+,,,,,,,
+Test Cases/2_Navigation/TC2002_Navigation_Dashboard_Success,Chrome 138.0.7204.184,User can not login without entered credentials,,04-08-2025 13:05:45,04-08-2025 13:05:59,14.075s,PASSED
+"openBrowser("""")",Chrome 138.0.7204.184,,,04-08-2025 13:05:45,04-08-2025 13:05:46,1.115s,PASSED
+maximizeWindow(),Chrome 138.0.7204.184,,,04-08-2025 13:05:46,04-08-2025 13:05:47,0.392s,PASSED
+"navigateToUrl(""https://lexinqa.lexinsolutions.com/"")",Chrome 138.0.7204.184,,,04-08-2025 13:05:47,04-08-2025 13:05:49,2.309s,PASSED
+"setText(findTestObject(""Object Repository/1_Security and Login/Login_Input_Email""), ""demo+1@nymbl.app"")",Chrome 138.0.7204.184,,,04-08-2025 13:05:49,04-08-2025 13:05:50,1.314s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/1_Security and Login/Login_Input_Password""), ""JlrLFiaChPTP/Psp+sMNCg=="")",Chrome 138.0.7204.184,,,04-08-2025 13:05:50,04-08-2025 13:05:50,0.284s,PASSED
+"sendKeys(findTestObject(""Object Repository/1_Security and Login/Login_Input_Password""), Keys.chord(ENTER))",Chrome 138.0.7204.184,,,04-08-2025 13:05:50,04-08-2025 13:05:51,0.250s,PASSED
+"click(findTestObject(""2_Navigation/Nav_Button_Search""))",Chrome 138.0.7204.184,,,04-08-2025 13:05:51,04-08-2025 13:05:55,3.982s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/3_Search/Search_Breadcrumb_Search""), 10)",Chrome 138.0.7204.184,,,04-08-2025 13:05:55,04-08-2025 13:05:57,1.903s,PASSED
+"click(findTestObject(""Object Repository/2_Navigation/Nav_Button_Dashboard""))",Chrome 138.0.7204.184,,,04-08-2025 13:05:57,04-08-2025 13:05:57,0.259s,PASSED
+"waitForElementVisible(findTestObject(""2_Navigation/Nav_Breadcrumb_Dashboard""), 10)",Chrome 138.0.7204.184,,,04-08-2025 13:05:57,04-08-2025 13:05:59,1.890s,PASSED
+"verifyElementPresent(findTestObject(""2_Navigation/Nav_Breadcrumb_Dashboard""), 10)",Chrome 138.0.7204.184,,,04-08-2025 13:05:59,04-08-2025 13:05:59,0.228s,PASSED
+closeBrowser(),Chrome 138.0.7204.184,,,04-08-2025 13:05:59,04-08-2025 13:05:59,0.109s,PASSED
+,,,,,,,
+Test Cases/2_Navigation/TC2003_Navigation_CreateMaterial_Success,Chrome 138.0.7204.184,User can not login without entered credentials,,04-08-2025 13:05:59,04-08-2025 13:06:12,12.731s,PASSED
+"openBrowser("""")",Chrome 138.0.7204.184,,,04-08-2025 13:05:59,04-08-2025 13:06:00,1.111s,PASSED
+maximizeWindow(),Chrome 138.0.7204.184,,,04-08-2025 13:06:00,04-08-2025 13:06:01,0.370s,PASSED
+"navigateToUrl(""https://lexinqa.lexinsolutions.com/"")",Chrome 138.0.7204.184,,,04-08-2025 13:06:01,04-08-2025 13:06:03,2.237s,PASSED
+"setText(findTestObject(""Object Repository/1_Security and Login/Login_Input_Email""), ""demo+1@nymbl.app"")",Chrome 138.0.7204.184,,,04-08-2025 13:06:03,04-08-2025 13:06:04,1.418s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/1_Security and Login/Login_Input_Password""), ""JlrLFiaChPTP/Psp+sMNCg=="")",Chrome 138.0.7204.184,,,04-08-2025 13:06:04,04-08-2025 13:06:04,0.270s,PASSED
+"sendKeys(findTestObject(""Object Repository/1_Security and Login/Login_Input_Password""), Keys.chord(ENTER))",Chrome 138.0.7204.184,,,04-08-2025 13:06:04,04-08-2025 13:06:05,0.240s,PASSED
+"mouseOver(findTestObject(""Object Repository/2_Navigation/Nav_Button_MaterialGroup""))",Chrome 138.0.7204.184,,,04-08-2025 13:06:05,04-08-2025 13:06:10,5.094s,PASSED
+"click(findTestObject(""Object Repository/2_Navigation/Nav_Button_MaterialGroup_Create""))",Chrome 138.0.7204.184,,,04-08-2025 13:06:10,04-08-2025 13:06:10,0.373s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/2_Navigation/Nav_Breadcrumb_CreateMaterial""), 10)",Chrome 138.0.7204.184,,,04-08-2025 13:06:10,04-08-2025 13:06:11,1.263s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/2_Navigation/Nav_Breadcrumb_CreateMaterial""), 10)",Chrome 138.0.7204.184,,,04-08-2025 13:06:11,04-08-2025 13:06:12,0.216s,PASSED
+closeBrowser(),Chrome 138.0.7204.184,,,04-08-2025 13:06:12,04-08-2025 13:06:12,0.112s,PASSED
+,,,,,,,
+Test Cases/2_Navigation/TC2004_Navigation_Enrichment_Success,Chrome 138.0.7204.184,User can not login without entered credentials,,04-08-2025 13:06:12,04-08-2025 13:06:25,13.405s,PASSED
+"openBrowser("""")",Chrome 138.0.7204.184,,,04-08-2025 13:06:12,04-08-2025 13:06:13,1.103s,PASSED
+maximizeWindow(),Chrome 138.0.7204.184,,,04-08-2025 13:06:13,04-08-2025 13:06:13,0.371s,PASSED
+"navigateToUrl(""https://lexinqa.lexinsolutions.com/"")",Chrome 138.0.7204.184,,,04-08-2025 13:06:13,04-08-2025 13:06:16,2.221s,PASSED
+"setText(findTestObject(""Object Repository/1_Security and Login/Login_Input_Email""), ""demo+1@nymbl.app"")",Chrome 138.0.7204.184,,,04-08-2025 13:06:16,04-08-2025 13:06:17,1.067s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/1_Security and Login/Login_Input_Password""), ""JlrLFiaChPTP/Psp+sMNCg=="")",Chrome 138.0.7204.184,,,04-08-2025 13:06:17,04-08-2025 13:06:17,0.268s,PASSED
+"sendKeys(findTestObject(""Object Repository/1_Security and Login/Login_Input_Password""), Keys.chord(ENTER))",Chrome 138.0.7204.184,,,04-08-2025 13:06:17,04-08-2025 13:06:17,0.237s,PASSED
+"mouseOver(findTestObject(""Object Repository/2_Navigation/Nav_Button_MaterialGroup""))",Chrome 138.0.7204.184,,,04-08-2025 13:06:17,04-08-2025 13:06:22,4.980s,PASSED
+"click(findTestObject(""2_Navigation/Nav_Button_MaterialGroup_Enrichment""))",Chrome 138.0.7204.184,,,04-08-2025 13:06:22,04-08-2025 13:06:22,0.387s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/2_Navigation/Nav_Breadcrumb_Enrichment""), 10)",Chrome 138.0.7204.184,,,04-08-2025 13:06:22,04-08-2025 13:06:24,1.155s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/2_Navigation/Nav_Breadcrumb_Enrichment""), 10)",Chrome 138.0.7204.184,,,04-08-2025 13:06:24,04-08-2025 13:06:25,1.476s,PASSED
+closeBrowser(),Chrome 138.0.7204.184,,,04-08-2025 13:06:25,04-08-2025 13:06:25,0.111s,PASSED
+,,,,,,,
+Test Cases/3_Search/TC3001_Search_ValidMaterialNumber_Success,Chrome 138.0.7204.184,,,04-08-2025 13:06:25,04-08-2025 13:06:37,12.109s,PASSED
+"openBrowser("""")",Chrome 138.0.7204.184,,,04-08-2025 13:06:25,04-08-2025 13:06:26,1.071s,PASSED
+maximizeWindow(),Chrome 138.0.7204.184,,,04-08-2025 13:06:26,04-08-2025 13:06:27,0.374s,PASSED
+"navigateToUrl(""https://lexinqa.lexinsolutions.com/"")",Chrome 138.0.7204.184,,,04-08-2025 13:06:27,04-08-2025 13:06:29,2.266s,PASSED
+"setText(findTestObject(""Object Repository/1_Security and Login/Login_Input_Email""), ""demo+1@nymbl.app"")",Chrome 138.0.7204.184,,,04-08-2025 13:06:29,04-08-2025 13:06:30,1.080s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/1_Security and Login/Login_Input_Password""), ""JlrLFiaChPTP/Psp+sMNCg=="")",Chrome 138.0.7204.184,,,04-08-2025 13:06:30,04-08-2025 13:06:30,0.268s,PASSED
+"sendKeys(findTestObject(""Object Repository/1_Security and Login/Login_Input_Password""), Keys.chord(ENTER))",Chrome 138.0.7204.184,,,04-08-2025 13:06:30,04-08-2025 13:06:31,0.254s,PASSED
+"click(findTestObject(""2_Navigation/Nav_Button_Search""))",Chrome 138.0.7204.184,,,04-08-2025 13:06:31,04-08-2025 13:06:35,4.496s,PASSED
+"setText(findTestObject(""Object Repository/3_Search/Search_Input_Keyword""), ""water"")",Chrome 138.0.7204.184,,,04-08-2025 13:06:35,04-08-2025 13:06:37,2.165s,PASSED
+closeBrowser(),Chrome 138.0.7204.184,,,04-08-2025 13:06:37,04-08-2025 13:06:37,0.112s,PASSED
+,,,,,,,
+Test Cases/3_Search/TC3002_Search_SingleSearch_Success,Chrome 138.0.7204.184,,,04-08-2025 13:06:37,04-08-2025 13:06:54,16.871s,PASSED
+"openBrowser("""")",Chrome 138.0.7204.184,,,04-08-2025 13:06:37,04-08-2025 13:06:38,1.123s,PASSED
+maximizeWindow(),Chrome 138.0.7204.184,,,04-08-2025 13:06:38,04-08-2025 13:06:39,0.371s,PASSED
+"navigateToUrl(""https://lexinqa.lexinsolutions.com/"")",Chrome 138.0.7204.184,,,04-08-2025 13:06:39,04-08-2025 13:06:41,2.229s,PASSED
+"setText(findTestObject(""Object Repository/1_Security and Login/Login_Input_Email""), ""demo+1@nymbl.app"")",Chrome 138.0.7204.184,,,04-08-2025 13:06:41,04-08-2025 13:06:42,1.080s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/1_Security and Login/Login_Input_Password""), ""JlrLFiaChPTP/Psp+sMNCg=="")",Chrome 138.0.7204.184,,,04-08-2025 13:06:42,04-08-2025 13:06:42,0.271s,PASSED
+"sendKeys(findTestObject(""Object Repository/1_Security and Login/Login_Input_Password""), Keys.chord(ENTER))",Chrome 138.0.7204.184,,,04-08-2025 13:06:42,04-08-2025 13:06:43,0.247s,PASSED
+"click(findTestObject(""Object Repository/2_Navigation/Nav_Button_Search""))",Chrome 138.0.7204.184,,,04-08-2025 13:06:43,04-08-2025 13:06:46,3.071s,PASSED
+"click(findTestObject(""Object Repository/3_Search/Search_Button_SearchFromInput""))",Chrome 138.0.7204.184,,,04-08-2025 13:06:46,04-08-2025 13:06:48,2.112s,PASSED
+"click(findTestObject(""Object Repository/3_Search/Search_Button_NewButtonFromInput""))",Chrome 138.0.7204.184,,,04-08-2025 13:06:48,04-08-2025 13:06:49,1.314s,PASSED
+"click(findTestObject(""Object Repository/3_Search/Search_DropdownInput_Field""))",Chrome 138.0.7204.184,,,04-08-2025 13:06:49,04-08-2025 13:06:50,0.448s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/3_Search/Search_Dropdown_Field_MaterialNumber""), 10)",Chrome 138.0.7204.184,,,04-08-2025 13:06:50,04-08-2025 13:06:50,0.543s,PASSED
+"click(findTestObject(""Object Repository/3_Search/Search_Dropdown_Field_MaterialNumber""))",Chrome 138.0.7204.184,,,04-08-2025 13:06:50,04-08-2025 13:06:50,0.255s,PASSED
+"click(findTestObject(""Object Repository/3_Search/Search_DropdownInput_Operator""))",Chrome 138.0.7204.184,,,04-08-2025 13:06:50,04-08-2025 13:06:51,0.470s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/3_Search/Search_Dropdown_Operator_IsEqualTo""), 10)",Chrome 138.0.7204.184,,,04-08-2025 13:06:51,04-08-2025 13:06:51,0.227s,PASSED
+"click(findTestObject(""Object Repository/3_Search/Search_Dropdown_Operator_IsEqualTo""))",Chrome 138.0.7204.184,,,04-08-2025 13:06:51,04-08-2025 13:06:51,0.245s,PASSED
+"setText(findTestObject(""Object Repository/3_Search/Search_DropdownInput_Value""), ""968"")",Chrome 138.0.7204.184,,,04-08-2025 13:06:51,04-08-2025 13:06:52,0.711s,PASSED
+"click(findTestObject(""Object Repository/3_Search/Search_Dropdown_Button_AddFilter""))",Chrome 138.0.7204.184,,,04-08-2025 13:06:52,04-08-2025 13:06:52,0.262s,PASSED
+"click(findTestObject(""Object Repository/3_Search/Search_Dropdown_Button_Search""))",Chrome 138.0.7204.184,,,04-08-2025 13:06:52,04-08-2025 13:06:53,0.479s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/3_Search/Search_Table_MaterialNumber_968""), 10)",Chrome 138.0.7204.184,,,04-08-2025 13:06:53,04-08-2025 13:06:54,1.046s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/3_Search/Search_Table_MaterialNumber_968""), 10)",Chrome 138.0.7204.184,,,04-08-2025 13:06:54,04-08-2025 13:06:54,0.225s,PASSED
+closeBrowser(),Chrome 138.0.7204.184,,,04-08-2025 13:06:54,04-08-2025 13:06:54,0.112s,PASSED

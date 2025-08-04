@@ -29,12 +29,35 @@ WebUI.setEncryptedText(findTestObject('Object Repository/1_Security and Login/Lo
 
 WebUI.sendKeys(findTestObject('Object Repository/1_Security and Login/Login_Input_Password'), Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('2_Navigation/Nav_Button_Search'))
+WebUI.click(findTestObject('Object Repository/2_Navigation/Nav_Button_Search'))
 
-WebUI.setText(findTestObject('Object Repository/3_Search/Search_Input_Keyword'), 'water')
+WebUI.click(findTestObject('Object Repository/3_Search/Search_Button_SearchFromInput'))
 
-//Need to add verifyication of results 
+WebUI.click(findTestObject('Object Repository/3_Search/Search_Button_NewButtonFromInput'))
+
+WebUI.click(findTestObject('Object Repository/3_Search/Search_DropdownInput_Field'))
+
+WebUI.waitForElementVisible(findTestObject('Object Repository/3_Search/Search_Dropdown_Field_MaterialNumber'), 10)
+
+WebUI.click(findTestObject('Object Repository/3_Search/Search_Dropdown_Field_MaterialNumber'))
+
+WebUI.click(findTestObject('Object Repository/3_Search/Search_DropdownInput_Operator'))
+
+WebUI.waitForElementVisible(findTestObject('Object Repository/3_Search/Search_Dropdown_Operator_IsEqualTo'), 10)
+
+WebUI.click(findTestObject('Object Repository/3_Search/Search_Dropdown_Operator_IsEqualTo'))
+
+WebUI.setText(findTestObject('Object Repository/3_Search/Search_DropdownInput_Value'), '968')
+
+WebUI.click(findTestObject('Object Repository/3_Search/Search_Dropdown_Button_AddFilter'))
+
+WebUI.click(findTestObject('Object Repository/3_Search/Search_Dropdown_Button_Search'))
+
+//Need to add verification of results
 //WebUI.verifyElementPresent(findTestObject('null'), 0)
+WebUI.waitForElementVisible(findTestObject('Object Repository/3_Search/Search_Table_MaterialNumber_968'), 10)
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/3_Search/Search_Table_MaterialNumber_968'), 10)
 
 WebUI.closeBrowser()
 

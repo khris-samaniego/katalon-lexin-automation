@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Search_Button_SearchFromInput</name>
+   <tag></tag>
+   <elementGuidId>44682b16-0062-4630-bcc9-3399580f6d44</elementGuidId>
+   <imagePath></imagePath>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;mantine-ik15qqb35-target&quot;)/span[@class=&quot;m_8d3afb97 mantine-ActionIcon-icon&quot;]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#mantine-ik15qqb35-target > span.m_8d3afb97.mantine-ActionIcon-icon</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='KU'])[1]/following::span[7]</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#mantine-ik15qqb35-target</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>6677bb33-c9bb-41c0-a266-548725eaa29e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>m_8d3afb97 mantine-ActionIcon-icon</value>
+      <webElementGuid>dd3ee456-4409-4b88-9940-489bd02786e1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mantine-ik15qqb35-target&quot;)/span[@class=&quot;m_8d3afb97 mantine-ActionIcon-icon&quot;]</value>
+      <webElementGuid>468dc161-6d41-4734-8a09-cc06a66cc6a0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//button[@id='mantine-ik15qqb35-target']/span</value>
+      <webElementGuid>db5fe842-3ea3-42c7-aca2-3352c712e2d6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='KU'])[1]/following::span[7]</value>
+      <webElementGuid>5a8eee01-da32-4897-aba3-fdc9f57c6303</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Columns (8)'])[1]/preceding::span[6]</value>
+      <webElementGuid>b1e03e8a-8ff8-431a-b587-14ca3dac46e8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Material Number'])[1]/preceding::span[9]</value>
+      <webElementGuid>f6a5a0b5-f659-4161-a47b-4fbf21bf7610</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/div/div/button/span</value>
+      <webElementGuid>89e2a9ff-74ad-4aaf-b235-9042a800fbfa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//button[@id='mantine-8y0apj5ip-target']/span</value>
+      <webElementGuid>ae39d5d7-63f2-40d1-8c62-740c9ff7073a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//button[@id='mantine-9r59h4czr-target']/span</value>
+      <webElementGuid>c2b58f13-b72e-4f69-b3f8-2fabaf526315</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Email_email</name>
+   <name>Search_DropdownInput_Operator</name>
    <tag></tag>
-   <elementGuidId>552494b7-2011-4f19-a580-2c7589ac38d7</elementGuidId>
+   <elementGuidId>17492843-2502-4382-ba83-edda7e7557a6</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#mantine-hyy24mg22</value>
+         <value>#mantine-7hcaykar1</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='root']/div/div[2]/div/div/div/div/form/div/div/div/input</value>
+         <value>//div[3]/div/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:attr=[placeholder=&quot;your@email.com&quot;i]</value>
+         <value>internal:attr=[placeholder=&quot;Select operator&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,15 +29,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>66869ced-0474-4e63-93fa-647c46688250</webElementGuid>
+      <webElementGuid>75358733-b0cd-478e-bb12-5fc271b84391</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>m_8fb7ebe7 mantine-Input-input mantine-TextInput-input</value>
-      <webElementGuid>0cacb652-2b86-40b2-9bbf-4d42e877f0dd</webElementGuid>
+      <value>m_8fb7ebe7 mantine-Input-input mantine-Select-input</value>
+      <webElementGuid>7a77cc71-a3a8-440d-b077-a0fdc2478d6b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,23 +45,31 @@
       <name>data-variant</name>
       <type>Main</type>
       <value>default</value>
-      <webElementGuid>b130a838-e9c5-4c86-91f6-85df354c7536</webElementGuid>
+      <webElementGuid>51e88195-9343-4f3a-8303-f8ee992c8120</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>your@email.com</value>
-      <webElementGuid>daa6753f-3d6b-468e-8b27-024f7058f27b</webElementGuid>
+      <value>Select operator</value>
+      <webElementGuid>3cf4e112-a067-4f01-9537-a247b2731482</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-path</name>
+      <name>aria-haspopup</name>
       <type>Main</type>
-      <value>email</value>
-      <webElementGuid>4fb6892c-c0ca-4625-a53e-9866790117dc</webElementGuid>
+      <value>listbox</value>
+      <webElementGuid>10b9fb73-6c34-466e-8d92-9dc8e1e95809</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>autocomplete</name>
+      <type>Main</type>
+      <value>off</value>
+      <webElementGuid>d212b83b-55a7-4856-acf9-a9f3c4ecc858</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,62 +77,78 @@
       <name>aria-invalid</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>f0285f94-fdb1-49e4-8672-1b13278fd12b</webElementGuid>
+      <webElementGuid>a8a33f0d-893f-4aae-9dc3-12c9708ed33a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>mantine-hyy24mg22</value>
-      <webElementGuid>bfa7fe64-8e72-429c-8bd3-65975e9f6d9a</webElementGuid>
+      <value>mantine-7hcaykar1</value>
+      <webElementGuid>0a840d53-cb44-4a40-a295-084ce355d2a7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>name</name>
+      <name>aria-controls</name>
       <type>Main</type>
-      <value>email</value>
-      <webElementGuid>db7f2b3c-9413-45a9-9fa4-e6c559bed031</webElementGuid>
+      <value>mantine-2eluw63ox</value>
+      <webElementGuid>b37ac07d-a4fc-4120-bdf8-bcbe10ae9709</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-expanded</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>d24f60c1-5f1b-4489-9997-97a0ad8e16dd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-mantine-stop-propagation</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>c516b13f-e09f-42d7-890a-698630ee1486</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mantine-hyy24mg22&quot;)</value>
-      <webElementGuid>3cd90b7f-e18d-404b-8439-fe45c1ad74bb</webElementGuid>
+      <value>id(&quot;mantine-7hcaykar1&quot;)</value>
+      <webElementGuid>ed118733-a213-4867-bfb5-f6e4575f1f94</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='mantine-hyy24mg22']</value>
-      <webElementGuid>279655a0-6a77-4ac0-9482-fae891bc5898</webElementGuid>
+      <value>//input[@id='mantine-7hcaykar1']</value>
+      <webElementGuid>817316e3-9bd9-4b47-983a-5d0b66b86df2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='root']/div/div[2]/div/div/div/div/form/div/div/div/input</value>
-      <webElementGuid>4f802861-5993-438e-8680-5624f355f538</webElementGuid>
+      <value>//div[@id='mantine-y88xedhh9-dropdown']/div/div[3]/div/input</value>
+      <webElementGuid>4af5b989-1dcd-4968-b290-0fefd88dbeb1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//input</value>
-      <webElementGuid>60e2b9de-3793-4338-b39c-75c1d4799654</webElementGuid>
+      <value>//div[3]/div/input</value>
+      <webElementGuid>959b4496-e1da-4029-a22f-57b20acd3fdb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@placeholder = 'your@email.com' and @id = 'mantine-hyy24mg22' and @name = 'email']</value>
-      <webElementGuid>a4ee294a-a497-4975-8894-0b3686a8ef7b</webElementGuid>
+      <value>//input[@placeholder = 'Select operator' and @id = 'mantine-7hcaykar1']</value>
+      <webElementGuid>c4bf9bb6-720b-4bd5-8095-e609f2001cfe</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

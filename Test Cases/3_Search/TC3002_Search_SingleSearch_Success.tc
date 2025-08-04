@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC3002_Search_SingleSearch_Success</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8f6d840c-d152-4d80-b56b-fbfc561ef746</testCaseGuid>
+</TestCaseEntity>
