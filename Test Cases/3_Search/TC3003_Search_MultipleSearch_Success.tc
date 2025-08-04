@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC3003_Search_MultipleSearch_Success</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8023659c-be2c-4f5d-a81f-732a476a02b0</testCaseGuid>
+</TestCaseEntity>

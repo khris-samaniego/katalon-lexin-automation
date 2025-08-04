@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Password_m_8d3afb97 mantine-ActionIcon-icon</name>
+   <tag></tag>
+   <elementGuidId>8df0dea8-ec2f-490f-afca-f07a4fcf83d2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.m_8d3afb97.mantine-ActionIcon-icon</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[2]/div/div/div/div/form/div/div[2]/div/div[3]/button/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>div >> internal:has-text=/^Password \*$/ >> button</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>22d1fa8b-7e27-49d5-90bc-6c75a8674fa4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>m_8d3afb97 mantine-ActionIcon-icon</value>
+      <webElementGuid>820ae836-ec5a-4e21-99aa-524f221b3eb3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[1]/div[2]/div[@class=&quot;m_7485cace mantine-Container-root&quot;]/div[@class=&quot;m_7485cace mantine-Container-root&quot;]/div[@class=&quot;m_1b7284a3 mantine-Paper-root&quot;]/div[@class=&quot;m_6d731127 mantine-Stack-root&quot;]/form[1]/div[@class=&quot;m_6d731127 mantine-Stack-root&quot;]/div[@class=&quot;m_f61ca620 mantine-PasswordInput-root m_46b77525 mantine-InputWrapper-root mantine-PasswordInput-root&quot;]/div[@class=&quot;m_6c018570 mantine-Input-wrapper mantine-PasswordInput-wrapper&quot;]/div[@class=&quot;m_82577fc2 mantine-Input-section mantine-PasswordInput-section&quot;]/button[@class=&quot;mantine-focus-auto mantine-active m_b1072d44 mantine-PasswordInput-visibilityToggle m_8d3f4000 mantine-ActionIcon-root m_87cf2631 mantine-UnstyledButton-root&quot;]/span[@class=&quot;m_8d3afb97 mantine-ActionIcon-icon&quot;]</value>
+      <webElementGuid>ecdf58af-176d-47ec-99e0-afc7f7dad50e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div/div/div/div/form/div/div[2]/div/div[3]/button/span</value>
+      <webElementGuid>8bc1b676-bf39-4d2f-888f-619813df3873</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Forgot password?'])[1]/preceding::span[1]</value>
+      <webElementGuid>61fb8a46-a6c4-4362-8b93-88ea68cb56c7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign in'])[1]/preceding::span[1]</value>
+      <webElementGuid>b1b242e8-b0f6-46e8-8cae-87570ff5d6b1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button/span</value>
+      <webElementGuid>df7142a0-16dd-4afc-8807-e0df77fe8944</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
